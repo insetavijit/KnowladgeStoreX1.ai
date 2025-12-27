@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 3.md",
+                "file": "WordPress Multisite Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 3"
+              "title": "WordPress Multisite Networks"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
+                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is an LLM Agent"
+              "title": "1.1.1.1 LLM Agents Overview"
             }
           }
         ]
@@ -222,40 +222,41 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
+      "graph:Open graph view": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fcf5249044241394",
+  "active": "b3ea8d591869e90f",
   "lastOpenFiles": [
+    "1.1.1.4 Multiple Sites & Cloning.md",
+    "WordPress Multisite Networks.md",
+    "Blueprints & Templates.md",
+    "Cloning a Site.md",
+    "Managing Multiple Local Sites.md",
+    "1.1.1 Professional Dev Environment.md",
+    "WordPress Development.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1 What are LLM Agents.md",
     "AGENTIC AI CORE/AGENTIC AI CORE.md",
-    "Untitled 3.md",
+    "AGENTIC AI CORE/Supli/1.1 LLM Agent Foundations.md",
+    "1.1.1.1 Local Environment Tools.md",
+    "1.1.1.10 Deployment Checklists & Standards.md",
+    "1.1.1.9 Performance & Environment Parity.md",
+    "1.1.1.8 Staging & Workflow Pipelines.md",
+    "1.1.1.6 Debugging Tools & Practices.md",
+    "1.1.1.5 WP-CLI & Command Line.md",
+    "1.1.1.7 Version Control Integration.md",
+    "1.1.1.3 Database Management.md",
+    "1.1.1.2 WordPress Installation & Structure.md",
+    "Untitled.md",
+    "WordpressSyllabus",
     "Digital Marketing/Value Proposition & Differentiation.md",
     "Digital Marketing/1.1.1 Marketing Strategy Basics.md",
     "Digital Marketing/1.1.1.1 Marketing Strategy Overview.md",
     "Digital Marketing/What is Marketing Strategy.md",
-    "Digital Marketing/Digital Marketing Syllabus.md",
-    "Digital Marketing/Challenges & Pitfalls.md",
-    "Digital Marketing/Representative Examples.md",
-    "Digital Marketing/Strategy vs Execution.md",
-    "Digital Marketing/Long-Term Planning & Roadmap.md",
-    "Digital Marketing/Segmentation, Targeting, Positioning.md",
-    "Digital Marketing/Market & Competitive Analysis.md",
-    "Digital Marketing/Customer-Centricity.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
-    "Digital Marketing/Role in Business Objectives.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
-    "Digital Marketing/1.1.1.10 Marketing Strategy in Practice.md",
-    "Digital Marketing/1.1.1.9 Strategic Planning Process.md",
-    "Digital Marketing/1.1.1.8 Segmentation, Targeting, Positioning.md",
-    "Digital Marketing/1.1.1.7 SWOT Analysis.md",
-    "Digital Marketing/1.1.1.6 Market Research.md",
-    "Digital Marketing/1.1.1.5 Competitive Analysis.md",
-    "Digital Marketing/1.1.1.4 Market Positioning.md",
-    "Digital Marketing/1.1.1.3 Unique Value Proposition (UVP).md",
     "Digital Marketing",
     "Untitled",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview",
@@ -273,7 +274,6 @@
     "Prompt Engineering",
     "_bin",
     "AGENTIC AI CORE/Supli",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
