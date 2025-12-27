@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1c144e3a076ed0f",
+            "id": "fcf5249044241394",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@PROMPTs/Promp - 1.md",
+                "file": "1.1.1 Marketing Strategy Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promp - 1"
+              "title": "1.1.1 Marketing Strategy Basics"
+            }
+          },
+          {
+            "id": "b0f9cdc83ff9a139",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.1.1.1 LLM Agents Overview"
             }
           }
         ]
@@ -159,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@PROMPTs/Promp - 1.md",
+                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Promp - 1"
+              "title": "Outline of What is an LLM Agent"
             }
           }
         ]
@@ -214,17 +228,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1c144e3a076ed0f",
+  "active": "fcf5249044241394",
   "lastOpenFiles": [
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
+    "1.1.1.3 Unique Value Proposition (UVP).md",
+    "1.1.1 Marketing Strategy Basics.md",
+    "1.1.1.2 The 4 Ps Framework.md",
+    "1.1.1.1 Marketing Strategy Overview.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1 What are LLM Agents.md",
     "AGENTIC AI CORE/AGENTIC AI CORE.md",
+    "Digital Marketing/Digital Marketing Syllabus.md",
+    "1.1.8 Marketing Ethics & Compliance.md",
+    "1.1.7 Marketing Analytics Basics.md",
+    "1.1.6 Brand Building Digital.md",
+    "1.1.5 Marketing Funnels & Conversion.md",
+    "1.1.4 Customer Journey Mapping.md",
+    "1.1.3 Consumer Behavior Online.md",
+    "1.1.2 Digital Marketing Landscape.md",
+    "Digital Marketing",
+    "Untitled",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
+    "@PROMPTs/Promp - 1.md",
     "AGENTIC AI CORE/Supli/1.1 LLM Agent Foundations.md",
     "Untitled.md",
     "@PROMPTs/v1.7-agent-answer-first.md",
     "Untitled 3.md",
-    "@PROMPTs/Promp - 1.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Agents vs Simple Prompting.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (2).png",
@@ -236,18 +264,6 @@
     "AGENTIC AI CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1-.png",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Autonomy & Termination.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Core Building Blocks (Preview).md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Paradigm Shift Text → Action.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/LLM as Core Controller.md",
-    "_explorations/1.1 LLM Agents — Summary Page.md",
-    "_explorations/1.1 LLM Agents — Nested List with Inline Briefs.md",
-    "_explorations/1.5 Evaluation, Reliability & Production.md",
-    "_explorations/1.5 Agent Evaluation, Reliability & Production — Nested List with Inline Briefs.md",
-    "_explorations/1.4 Memory, Context & Retrieval.md",
-    "_explorations/1.4 Agent Memory, Context & RAG — Nested List with Inline Briefs.md",
-    "_explorations/1.2 Multi-Agent Systems.md",
-    "_explorations/1.2 Multi-Agent Systems — Nested List with Inline Briefs (1.2).md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.3 Agent Types & Categories/1.1.3 Agent Types & Categories.md",
     "AGENTIC AI CORE/imgs/Multiagent-system-Architecture-1024x733.webp",
     "AGENTIC AI CORE/imgs/0_CP98j5HdhmC-nTON.jpg",
     "AGENTIC AI CORE/imgs",
@@ -258,8 +274,6 @@
     "_bin",
     "AGENTIC AI CORE/Supli",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.5 Tool Use & Advanced Orchestration",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.4 Prompt Engineering for Agents",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
