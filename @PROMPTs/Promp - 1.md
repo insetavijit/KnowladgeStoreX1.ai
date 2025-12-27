@@ -11,6 +11,7 @@ Generate **clear, structured, interview-ready explanations** of LLM/AI/agent con
 - layered with short and long speaking versions,
     
 - supported by a minimal illustrative code example when relevant.
+- Deeper explanation, often with a table comparing concepts where it makes sense.
     
 
 ---
