@@ -21,8 +21,6 @@
 - Translation or language detection
 - Image processing or link validation
 
----
-
 ## 2. Technology Stack Selection
 
 ### 2.1 Core Framework: LangGraph
