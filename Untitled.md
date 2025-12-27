@@ -1,549 +1,106 @@
-# LLM Agents: Complete Interview Review Guide
+## **Session Instruction Prompt (Trimmed — Nested List)**
 
-## Quick Navigation
+* **Session Rule**
 
-**[Core Concepts](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#1-what-are-llm-agents)** | **[Architecture](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#2-agent-architecture)** | **[Agent Types](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#3-agent-types)** | **[Prompting](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#4-prompt-engineering)** | **[Tool Use](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#5-tool-use--orchestration)** | **[Interview Prep](https://claude.ai/chat/f9626c0c-3265-481b-8ca3-0f698f379bb3#interview-ready-summary)**
-
----
-
-## 1. What Are LLM Agents?
-
-### The Essential Definition
-
-An **LLM agent** is an autonomous system that uses a large language model as its "brain" to perceive situations, reason about them, plan actions, execute those actions using tools, and learn from the results—all in a continuous loop.
-
-**Simple Formula:**
-
-```
-Agent = LLM (Brain) + Tools (Hands) + Memory (Context) + Loop (Heartbeat)
-```
-
-### Agent vs Chatbot: Key Differences
-
-|Dimension|Chatbot|Agent|
-|---|---|---|
-|**Behavior**|Reactive (waits for input)|Proactive (initiates actions)|
-|**Memory**|Stateless (forgets after response)|Stateful (remembers context)|
-|**Capability**|Text generation only|Uses external tools & APIs|
-|**Goal**|Answers questions|Solves problems autonomously|
-|**Interaction**|Single-turn|Multi-step workflow|
-
-**Memory Hook:** _Chatbots talk. Agents act._
-
-### Five Core Capabilities (R-P-T-M-R)
-
-1. **Reason**: Break down complex problems logically
-2. **Plan**: Decompose tasks into executable steps
-3. **Tool use**: Call APIs, search, execute code
-4. **Memory**: Maintain context across interactions
-5. **Reflect**: Self-evaluate and improve
-
-### The ReAct Pattern (Most Important)
-
-**ReAct = Reasoning + Acting**
-
-```
-Thought: "I need to check the weather in Tokyo"
-Action: call_weather_api("Tokyo")
-Observation: "18°C, cloudy"
-Thought: "User needs clothing advice for this weather"
-Action: suggest_outfit(18, "cloudy")
-Observation: "Light jacket recommended"
-Answer: "It's 18°C and cloudy in Tokyo. I'd suggest a light jacket."
-```
-
-**Why ReAct matters:** Combines transparent reasoning with tool execution, making agent behavior interpretable and debuggable.
-
-### Other Key Patterns (2025)
-
-- **Plan-and-Execute**: Create complete plan first, then execute (better for complex tasks)
-- **Tree-of-Thoughts**: Explore multiple solution paths simultaneously
-- **Reflexion**: Heavy emphasis on self-critique and iterative improvement
-
-### When to Use Agents vs Simple LLM Calls
-
-**Use Agents when:**
-
-- ✅ Task requires multiple steps
-- ✅ Need to use external tools/APIs
-- ✅ Must maintain context across interactions
-- ✅ Require dynamic decision-making
-- ✅ Need error recovery and retries
-
-**Use Simple LLM calls when:**
-
-- ✅ Single-turn question answering
-- ✅ Straightforward text generation
-- ✅ No external tools needed
-- ✅ Low latency required
-- ✅ Stateless interaction is fine
-
-### Agent vs Workflow vs Pipeline
-
-- **Pipeline**: Fixed linear sequence (A → B → C)
-- **Workflow**: Predefined branches with conditions (if X then Y, else Z)
-- **Agent**: Dynamic, LLM-decides path in real-time
+  * Treat **`@PROMPT`** as the standard answering framework for the entire session.
+  * Assume every question is implicitly prefixed with `@PROMPT`.
+  * Always follow `@PROMPT` unless the user explicitly overrides it.
+  * Prioritize clarity, structured teaching, and interview readiness.
+  * Acknowledge once: **“OK, is Understood.”**
 
 ---
 
-## 2. Agent Architecture
+* **@PROMPT**
 
-### Six Core Components (P-M-P-A-R-L)
+  * **Prompt Info**
 
-#### 1. **Perception** (Input Layer)
+    * Version: **v1.5**
+    * Date: **2025-12-25**
+    * Purpose: Teach clearly → then answer concisely with one focused code example.
+  * **Role & Context**
 
-- Processes user input, tool results, environment signals
-- Extracts intent and entities
-- Handles multi-modal inputs (text, images, audio)
+    * Role: Technical instructor and interview coach.
+    * Topic: *User’s question.*
+  * **Task**
 
-#### 2. **Memory** (State Management)
+    * Generate answers using:
 
-- **Short-term**: Current conversation (context window)
-- **Long-term**: Historical interactions, facts (vector embeddings)
-- **Working**: Task-specific temporary data
-- Enables agents to be **stateful**
-
-#### 3. **Planning** (Decision Layer)
-
-- Decomposes complex goals into subtasks
-- Determines action sequence
-- Handles dependencies
-- Strategies: forward planning, backward chaining, hierarchical
-
-#### 4. **Action** (Execution Layer)
-
-- Executes tools and functions
-- Makes API calls
-- Runs code
-- Queries databases
-
-#### 5. **Reflection** (Learning Layer)
-
-- Evaluates action outcomes
-- Detects and corrects errors
-- Improves future behavior
-- Self-critique mechanism
-
-#### 6. **Loop** (Control Flow)
-
-```
-Perceive → Plan → Act → Observe → Reflect → Update Memory → REPEAT
-```
-
-### Stateful vs Stateless Design
-
-|Aspect|Stateless|Stateful|
-|---|---|---|
-|**Memory**|None beyond prompt|Persistent across sessions|
-|**Cost**|Lower|Higher|
-|**Use case**|Simple, independent tasks|Complex, multi-session tasks|
-|**Personalization**|Not possible|Fully personalized|
-
-### Common Control Flow Patterns
-
-1. **Sequential**: Linear step execution
-2. **Conditional**: Branch based on conditions
-3. **Iterative**: Repeat until goal met
-4. **Parallel**: Multiple simultaneous actions
-5. **Hierarchical**: Nested sub-agents for subtasks
+      * Display Rules (how to present)
+      * Content Framework (what to explain)
 
 ---
 
-## 3. Agent Types
+* **Display Rules — Ruleset**
 
-### Eight Main Categories
+  * **Question**
 
-#### 1. **Conversational Agents**
+    * Start with H4-style heading: `#### **N. Question?**`
+  * **Sections (fixed order 'H5-style' )**
 
-- **Purpose**: Natural dialogue management
-- **Use case**: Customer support, virtual assistants
-- **Key feature**: Multi-turn context awareness
+    * **Concept & Clarification**
+    * **Code Example**
+    * **Interview-Ready Answer**
+  * **Headings**
 
-#### 2. **Function-Calling Agents**
+    * Each section uses H5-style bold headings.
+  * **Concept Section**
 
-- **Purpose**: Structured tool invocation
-- **Use case**: API automation, data retrieval
-- **Key feature**: Precise parameter extraction
+    * Start with intro paragraph.
+    * Use bold sub-labels:
 
-#### 3. **ReAct Agents**
+      * What it is
+      * Why it exists
+      * How it works
+      * Defaults & behaviors
+      * Edge cases & pitfalls
+      * Utilities / variations
+    * Use bullets where helpful.
+  * **Styling**
 
-- **Purpose**: Transparent reasoning + action
-- **Use case**: Complex problem-solving, research
-- **Key feature**: Explicit thought traces
+    * **Bold** → headings, sub-labels
+    * *Italic* → emphasis
+    * Inline code → tags, classes, tokens
+  * **Code Example**
 
-#### 4. **Reflection Agents**
+    * Exactly one fenced block.
+    * Follow with **Explanation:** paragraph.
+  * **Interview Answer**
 
-- **Purpose**: Self-evaluation and refinement
-- **Use case**: Content creation, code review
-- **Key feature**: Iterative quality improvement
+    * One concise professional paragraph only.
+  * **Layout**
 
-#### 5. **Tool-Using Agents**
+    * Blank lines between blocks.
+    * No dense text.
+  * **Consistency**
 
-- **Purpose**: Extensive external interaction
-- **Use case**: Workflow automation, data analysis
-- **Key feature**: Multi-tool orchestration
-
-#### 6. **Planning Agents**
-
-- **Purpose**: Multi-step task decomposition
-- **Use case**: Project planning, complex workflows
-- **Key feature**: Explicit upfront planning
-
-#### 7. **Research Agents**
-
-- **Purpose**: Information gathering and synthesis
-- **Use case**: Market research, literature review
-- **Key feature**: Multi-source verification
-
-#### 8. **Coding Agents**
-
-- **Purpose**: Software development assistance
-- **Use case**: Code generation, debugging, testing
-- **Key feature**: Execute and verify code
-
-### Multi-Agent Systems (2025 Trend)
-
-**Concept**: Teams of specialized agents collaborating
-
-- **Planner** agent designs approach
-- **Researcher** agent gathers information
-- **Executor** agent implements solution
-- **Critic** agent evaluates results
-
-**Popular frameworks**: CrewAI, AutoGen, LangGraph
-
-### Matching Agent Type to Task
-
-```
-Simple query → Function-calling agent
-Complex research → ReAct or Research agent
-Iterative refinement → Reflection agent
-Multi-step automation → Planning agent + tools
-Team collaboration → Multi-agent system
-```
+    * Same order, labels, tone.
+    * No meta commentary.
 
 ---
 
-## 4. Prompt Engineering for Agents
+* **Content Framework**
 
-### Why Prompts Are Critical
+  * **Concept & Clarification**
 
-Prompts act as "soft code" that controls agent behavior, reliability, and boundaries—without changing the underlying model.
+    * Explain from zero knowledge.
+    * Cover: what, why, how, defaults, pitfalls, variations.
+  * **Code Example**
 
-### Essential Prompt Components
+    * One minimal, relevant example.
+    * Brief explanation.
+  * **Interview-Ready Answer**
 
-#### 1. **Role Definition**
-
-```
-You are an expert financial analyst specializing in tech sector 
-valuations. Your goal is to analyze company fundamentals and 
-provide investment recommendations based on data.
-```
-
-#### 2. **Clear Instructions**
-
-- Explicit objectives
-- Step-by-step guidance
-- Output format requirements
-- Constraint definitions
-
-#### 3. **Few-Shot Examples**
-
-```
-Example 1:
-User: Analyze Apple's recent earnings
-Thought: I need to gather Q4 2024 earnings data
-Action: fetch_earnings_report("AAPL", "Q4 2024")
-Observation: Revenue $89.5B, EPS $1.46
-Thought: I should compare to analyst expectations
-Action: fetch_analyst_consensus("AAPL", "Q4 2024")
-...
-```
-
-#### 4. **Chain-of-Thought Prompting**
-
-- "Think step by step before acting"
-- "Explain your reasoning"
-- "Show your work"
-
-#### 5. **Context Formatting**
-
-Use structured formats (XML/JSON) for complex data:
-
-```xml
-<context>
-  <user_preferences>
-    <risk_tolerance>moderate</risk_tolerance>
-    <time_horizon>5 years</time_horizon>
-  </user_preferences>
-  <current_portfolio>
-    <!-- portfolio data -->
-  </current_portfolio>
-</context>
-```
-
-### Implementing Guardrails
-
-**Purpose**: Constrain agent behavior to safe, reliable operations
-
-**Methods**:
-
-- Limit tool access (whitelist specific functions)
-- Set termination conditions (max iterations, time limits)
-- Define acceptable actions
-- Budget constraints (API calls, costs)
-- Output validation schemas
-
-**Example constraints**:
-
-```
-- Maximum 5 tool calls per task
-- Never execute code that modifies system files
-- Always explain reasoning before acting
-- Stop if confidence score < 0.7
-- Require confirmation for financial transactions
-```
-
-### Prompt Iteration Strategy
-
-1. **Start basic**: Simple instructions and role
-2. **Test edge cases**: Find where it breaks
-3. **Add constraints**: Fix observed failures
-4. **Refine examples**: Improve few-shot demonstrations
-5. **Monitor & adjust**: Continuous improvement
+    * Direct, precise, interview-suitable summary.
 
 ---
 
-## 5. Tool Use & Orchestration
+* **General Requirements**
 
-### Function Calling Fundamentals
-
-**Concept**: LLM outputs structured JSON specifying which tool to call and with what parameters
-
-#### OpenAI Format
-
-```json
-{
-  "name": "get_stock_price",
-  "description": "Retrieves current stock price for a given ticker",
-  "parameters": {
-    "type": "object",
-    "properties": {
-      "ticker": {
-        "type": "string",
-        "description": "Stock ticker symbol (e.g., AAPL)"
-      },
-      "exchange": {
-        "type": "string",
-        "enum": ["NYSE", "NASDAQ", "LSE"]
-      }
-    },
-    "required": ["ticker"]
-  }
-}
-```
-
-#### Anthropic Format
-
-```json
-{
-  "name": "get_stock_price",
-  "description": "Retrieves current stock price",
-  "input_schema": {
-    "type": "object",
-    "properties": {
-      "ticker": {"type": "string"}
-    },
-    "required": ["ticker"]
-  }
-}
-```
-
-### Tool Selection Logic
-
-**How agents choose tools:**
-
-1. **Semantic matching**: Description similarity to task
-2. **Context-based**: Previous actions and results
-3. **Capability matching**: Can tool fulfill requirement?
-4. **Cost consideration**: Prefer cheaper equivalent tools
-
-### Composing Tool Results
-
-**Pattern**: Chain multiple tool calls to achieve complex goals
-
-```
-Step 1: search_news("Tesla quarterly earnings")
-        → Returns: Article URLs
-
-Step 2: fetch_article(url_1)
-        → Returns: Full article text
-
-Step 3: extract_financials(article_text)
-        → Returns: Structured data
-
-Step 4: calculate_metrics(financials)
-        → Returns: Analysis
-```
-
-### Error Recovery Strategies
-
-1. **Retry with modifications**: Adjust parameters and try again
-2. **Fallback tool**: Use alternative tool if primary fails
-3. **User clarification**: Ask for more information
-4. **Graceful degradation**: Provide partial results
-5. **Explain and abort**: Document failure and stop
-
-**Example**:
-
-```python
-try:
-    result = call_tool("fetch_data", params)
-    validate(result)
-except ToolError as e:
-    if e.type == "rate_limit":
-        wait_and_retry()
-    elif e.type == "invalid_params":
-        result = call_alternative_tool()
-    else:
-        log_error_and_notify_user()
-```
-
-### Validation & Safety
-
-**Critical checks**:
-
-- ✅ Schema validation (output matches expected format)
-- ✅ Sanity checks (reasonable values, no SQL injection)
-- ✅ Cross-verification (confirm with multiple sources)
-- ✅ Permission checks (authorized for this action)
-
-### Model Context Protocol (MCP) — 2025 Standard
-
-**What it is**: Open standard for LLM-tool communication (led by Anthropic, adopted by OpenAI, Google)
-
-**Why it matters**:
-
-- Standardizes tool/memory/context interfaces
-- Enables plug-and-play interoperability
-- Server-client architecture
-- Supports tool discovery and registration
-- Streaming for long operations
-
-### Tools vs RAG vs Fine-tuning
-
-|Approach|When to Use|Example|
-|---|---|---|
-|**Tools**|Real-time data, external actions|Weather API, code execution, database queries|
-|**RAG**|Large knowledge base, domain docs|Company policies, technical documentation|
-|**Fine-tuning**|Consistent behavior patterns|Domain-specific language, specialized tasks|
-
-**Combination strategies**:
-
-- Fine-tuned model + RAG for specialized domain knowledge
-- Fine-tuned model + tools for domain-specific actions
-- RAG + tools for knowledge-grounded real-world actions
-
-### Popular Frameworks (2025)
-
-|Framework|Strength|Best For|
-|---|---|---|
-|**LangChain/LangGraph**|Flexible chains and graphs|Complex workflows with cycles|
-|**CrewAI**|Role-based multi-agent teams|Collaborative agent systems|
-|**AutoGen**|Conversational agents|Agent-to-agent dialogue|
-|**LlamaIndex**|RAG-focused|Knowledge retrieval|
+  * Accurate, current, version-aware.
+  * Use industry jargon.
+  * Avoid demos, multiple examples, diagrams.
+  * Keep tone consistent.
 
 ---
 
-## Interview-Ready Summary
-
-### 30-Second Elevator Pitch
-
-> "LLM agents are autonomous systems where an LLM acts as a controller in a perception-reasoning-action loop. Unlike reactive chatbots, agents are goal-driven and stateful—they maintain memory, plan multi-step tasks, execute tools via function calling, and reflect on outcomes. The ReAct pattern interleaves reasoning with actions for transparency. Architecturally, agents combine perception, memory, planning, action, and reflection components. Different types—like ReAct, planning, or multi-agent systems—match different use cases. In 2025, frameworks like LangGraph and CrewAI enable sophisticated orchestration, while MCP standardizes tool interfaces. Agents represent a shift from one-shot prompting to autonomous problem-solving."
-
-### Critical Concepts Checklist
-
-- ☑ **Agent formula**: LLM + Tools + Memory + Loop
-- ☑ **ReAct pattern**: Thought → Action → Observation cycle
-- ☑ **Six components**: Perception, Memory, Planning, Action, Reflection, Loop
-- ☑ **Agent vs chatbot**: Proactive vs reactive, stateful vs stateless
-- ☑ **Function calling**: Structured tool invocation via JSON
-- ☑ **Error recovery**: Retry, fallback, graceful degradation
-- ☑ **When to use**: Multi-step tasks, tool use, state management
-- ☑ **Guardrails**: Constraints, validation, safety checks
-- ☑ **MCP**: 2025 standard for tool interoperability
-- ☑ **Tools vs RAG**: Actions vs knowledge retrieval
-
-### Common Interview Questions & Answers
-
-**Q1: "How does an agent differ from a chatbot?"**
-
-> "A chatbot is reactive and stateless—it responds to single queries with text. An agent is proactive and stateful—it maintains context, uses tools to interact with the world, plans multi-step solutions, and iteratively works toward goals. Essentially, chatbots answer questions; agents solve problems."
-
-**Q2: "Explain the ReAct pattern."**
-
-> "ReAct combines Reasoning and Acting in a loop: the agent thinks about what to do (Thought), executes an action using a tool (Action), observes the result (Observation), and repeats. This makes the reasoning process transparent and allows the agent to adapt based on feedback, reducing errors compared to planning everything upfront."
-
-**Q3: "How would you design an agent to book a flight?"**
-
-> "I'd use a planning agent with tool access. First, it would gather requirements (dates, destination, preferences) through perception. Then plan the steps: search flights, compare prices, check availability, and book. It would use tools for each step—flight search API, payment processing—with reflection to verify each step succeeded. I'd add guardrails like budget limits and confirmation before final booking. Memory would track the conversation and user preferences."
-
-**Q4: "What happens when a tool call fails?"**
-
-> "Multiple strategies: First, retry with modified parameters if it's a transient error. Second, use a fallback tool with similar capabilities. Third, ask the user for clarification if parameters were ambiguous. Fourth, provide partial results with graceful degradation. Fifth, log the error and explain to the user. The key is validating results, having backup plans, and maintaining transparency."
-
-**Q5: "When would you use RAG versus tools versus fine-tuning?"**
-
-> "Use tools for real-time actions and data—APIs, databases, code execution. Use RAG for retrieving knowledge from large, frequently updated document sets where you need citations. Use fine-tuning for changing consistent behavior patterns or domain-specific language. Often you combine them: a fine-tuned model that uses RAG for knowledge and tools for actions gives you specialized behavior, domain expertise, and real-world interaction."
-
-### Red Flags to Avoid
-
-- ❌ Treating agents as simple prompt chains (they're autonomous systems)
-- ❌ No error handling or validation (always validate tool outputs)
-- ❌ Over-engineering simple problems (use simple LLM for simple tasks)
-- ❌ Ignoring cost and latency (agents make multiple LLM calls)
-- ❌ No termination conditions (can loop infinitely)
-- ❌ Ignoring safety and guardrails (agents can take real actions)
-
-### Quick Recall Mnemonics
-
-**Agent Components**: **P-M-P-A-R-L**
-
-- **P**erception
-- **M**emory
-- **P**lanning
-- **A**ction
-- **R**eflection
-- **L**oop
-
-**Agent Capabilities**: **R-P-T-M-R**
-
-- **R**eason
-- **P**lan
-- **T**ool use
-- **M**emory
-- **R**eflect
-
-**ReAct Flow**: **T-A-O**
-
-- **T**hought
-- **A**ction
-- **O**bservation
-
----
-
-## Final Tips for Interview Success
-
-1. **Start with definitions**: Show you understand fundamentals
-2. **Use concrete examples**: Don't just explain—demonstrate with scenarios
-3. **Discuss trade-offs**: Show you think about pros/cons, not just features
-4. **Mention 2025 trends**: MCP, multi-agent systems, popular frameworks
-5. **Connect to real use cases**: Relate concepts to practical applications
-6. **Be honest about limitations**: Agents aren't always the answer
-7. **Show systems thinking**: Understand how pieces fit together
-
-**Remember**: Interviewers want to see you can think through agent design decisions, not just recite definitions. Use this guide to build intuition, then practice explaining concepts in your own words.
-
----
-
-_Good luck with your interview!_
+If you want, Boss, I can compress this further into a **one-screen “cheat prompt”** for quick reuse.
