@@ -48,7 +48,7 @@
               "type": "markdown",
               "state": {
                 "file": "Untitled 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -248,8 +248,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fcf5249044241394",
+  "active": "153f6d06ca3545b7",
   "lastOpenFiles": [
+    "Untitled.md",
     "Untitled 1.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.12 Debugging Best Practices & Pitfalls.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.11 Debugging Common Issues.md",
@@ -257,7 +258,6 @@
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.9 Interactive Debugging.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.8 Understanding Flow.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.7 Tracing Execution.md",
-    "Untitled.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.6 Logging State.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.5 Print Debugging.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.4 Debugging Tools.md",
