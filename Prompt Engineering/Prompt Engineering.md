@@ -1,19 +1,19 @@
-### **1.1 Prompt Engineering Fundamentals**
+### **[[1.1 Prompt Engineering Fundamentals]]**
 
 Master prompt engineering as the essential skill for working with Large Language Models. Learn prompt structure, instruction design, context management, and output control. Think systematically—not trial-and-error, but principled techniques backed by research. Understand how LLMs process prompts, tokenization, and context windows. This prevents ineffective prompting and establishes patterns for reliable LLM applications. Jobs expect prompt engineering expertise; basic prompting skills are insufficient for production systems.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.1.1 LLM Basics & Tokenization]]**|How LLMs work; transformer architecture overview; tokens vs words; tokenization process; context windows; token limits; counting tokens; token efficiency. Foundation understanding.|
-|**[[1.1.2 Prompt Anatomy]]**|System messages; user messages; assistant messages; role definitions; instruction placement; context structure; output format specification. Prompt components.|
-|**[[1.1.3 Instruction Design]]**|Clear instructions; specificity; imperative vs declarative; task framing; instruction length; explicit vs implicit; ambiguity avoidance. Effective instructions.|
-|**[[1.1.4 Context Management]]**|Providing context; relevant information; context placement; context length; prioritizing information; context window optimization. Context strategies.|
-|**[[1.1.5 Output Formatting]]**|Specifying formats; JSON, XML, markdown; structured output; format examples; template specification; output validation. Controlled outputs.|
-|**[[1.1.6 Temperature & Parameters]]**|Temperature setting; top-p (nucleus sampling); top-k; frequency penalty; presence penalty; parameter effects; when to adjust; deterministic vs creative. Model parameters.|
-|**[[1.1.7 Prompt Iteration]]**|Testing prompts; A/B testing; prompt versions; iterative refinement; measuring quality; prompt debugging; systematic improvement. Optimization process.|
-|**[[1.1.8 Common Pitfalls]]**|Vague instructions; information overload; conflicting instructions; assumed knowledge; format inconsistency; prompt injection vulnerabilities. Avoiding mistakes.|
+| Topic                                   | Focus & Purpose                                                                                                                                                                      |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[[1.1.1 LLM Basics & Tokenization]]** | How LLMs work; transformer architecture overview; tokens vs words; tokenization process; context windows; token limits; counting tokens; token efficiency. Foundation understanding. |
+| **[[1.1.2 Prompt Anatomy]]**            | System messages; user messages; assistant messages; role definitions; instruction placement; context structure; output format specification. Prompt components.                      |
+| **[[1.1.3 Instruction Design]]**        | Clear instructions; specificity; imperative vs declarative; task framing; instruction length; explicit vs implicit; ambiguity avoidance. Effective instructions.                     |
+| **[[1.1.4 Context Management]]**        | Providing context; relevant information; context placement; context length; prioritizing information; context window optimization. Context strategies.                               |
+| **[[1.1.5 Output Formatting]]**         | Specifying formats; JSON, XML, markdown; structured output; format examples; template specification; output validation. Controlled outputs.                                          |
+| **[[1.1.6 Temperature & Parameters]]**  | Temperature setting; top-p (nucleus sampling); top-k; frequency penalty; presence penalty; parameter effects; when to adjust; deterministic vs creative. Model parameters.           |
+| **[[1.1.7 Prompt Iteration]]**          | Testing prompts; A/B testing; prompt versions; iterative refinement; measuring quality; prompt debugging; systematic improvement. Optimization process.                              |
+| **[[1.1.8 Common Pitfalls]]**           | Vague instructions; information overload; conflicting instructions; assumed knowledge; format inconsistency; prompt injection vulnerabilities. Avoiding mistakes.                    |
 
-### **1.2 Advanced Prompting Techniques**
+### **[[1.2 Advanced Prompting Techniques]]**
 
 Master research-backed prompting strategies that dramatically improve LLM performance. Learn few-shot learning, chain-of-thought, self-consistency, and tree-of-thoughts. Understand when to use each technique, how they work, and their trade-offs. These techniques are proven in academic research and production systems—essential for complex reasoning tasks. This section covers methods that separate novice from expert prompt engineers.
 
@@ -28,7 +28,7 @@ Master research-backed prompting strategies that dramatically improve LLM perfor
 |**[[1.2.7 Least-to-Most Prompting]]**|Problem decomposition; solving subproblems; building solutions; sequential prompting; dependency handling; complex problem solving. Incremental reasoning.|
 |**[[1.2.8 Generated Knowledge]]**|Generating relevant knowledge first; knowledge-augmented prompts; two-stage prompting; when generated knowledge helps; knowledge quality. Knowledge injection.|
 
-### **1.3 Role-Based & Persona Prompting**
+### **[[1.3 Role-Based & Persona Prompting]]**
 
 Master persona design and role-based prompting for specialized tasks. Learn expert persona creation, style control, tone management, and character consistency. Understand cognitive prompting, metacognitive techniques, and perspective-taking. Role prompting dramatically improves domain-specific performance—essential for specialized applications like medical, legal, or technical assistance.
 
@@ -43,7 +43,7 @@ Master persona design and role-based prompting for specialized tasks. Learn expe
 |**[[1.3.7 Audience Adaptation]]**|Target audience; expertise level; age appropriateness; cultural sensitivity; accessibility; explanation depth. User-centered prompting.|
 |**[[1.3.8 Consistency Maintenance]]**|Persona reinforcement; style preservation; character continuity; avoiding drift; long conversation consistency. Stable personas.|
 
-### **1.4 Structured Output & Data Extraction**
+### **[[1.4 Structured Output & Data Extraction]]**
 
 Master techniques for extracting structured data and ensuring consistent formats. Learn JSON mode, XML generation, schema validation, and field extraction. Understand regular expressions in prompts, output parsing, and format enforcement. Structured output is critical for production systems—unreliable parsing breaks pipelines. This section covers methods for deterministic, parseable LLM outputs.
 
@@ -58,7 +58,7 @@ Master techniques for extracting structured data and ensuring consistent formats
 |**[[1.4.7 Classification Tasks]]**|Category assignment; multi-class classification; confidence scores; label consistency; hierarchical classification. Categorization.|
 |**[[1.4.8 Regular Expressions]]**|Specifying patterns; format validation; extraction patterns; regex in prompts; pattern examples; format enforcement. Pattern matching.|
 
-### **1.5 Context Window Optimization**
+### **[[1.5 Context Window Optimization]]**
 
 Master techniques for working within context window limits. Learn compression, summarization, prioritization, and retrieval-augmented generation. Understand token counting, context stuffing, sliding windows, and memory management. Context limits are hard constraints—exceeding them breaks applications. This section covers strategies for maximizing information within limits.
 
@@ -73,7 +73,7 @@ Master techniques for working within context window limits. Learn compression, s
 |**[[1.5.7 Chunking Strategies]]**|Document chunking; chunk size; overlap; semantic chunking; sentence-level; paragraph-level; optimal chunk sizes. Segmentation.|
 |**[[1.5.8 Context Packing]]**|Maximizing information density; efficient formatting; removing formatting; acronyms; bullet points vs prose. Space optimization.|
 
-### **1.6 Reasoning & Problem Solving**
+### **[[1.6 Reasoning & Problem Solving]]**
 
 Master advanced reasoning techniques for complex problem-solving. Learn decomposition, analogical reasoning, counterfactual thinking, and multi-step logic. Understand mathematical reasoning, code generation, and scientific reasoning. These techniques enable LLMs to tackle sophisticated problems—essential for technical and analytical applications.
 
@@ -88,7 +88,7 @@ Master advanced reasoning techniques for complex problem-solving. Learn decompos
 |**[[1.6.7 Multi-Hop Reasoning]]**|Connecting information; transitive reasoning; inference chains; multi-step deduction; complex connections. Connected reasoning.|
 |**[[1.6.8 Verification & Validation]]**|Checking answers; self-verification; consistency checks; error detection; validation criteria; proof reading. Quality control.|
 
-### **1.7 Safety & Alignment**
+### **[[1.7 Safety & Alignment]]**
 
 Master techniques for safe, aligned, and responsible LLM outputs. Learn content filtering, bias mitigation, toxicity prevention, and alignment techniques. Understand prompt injection defense, jailbreak prevention, and constitutional AI. Safety is non-negotiable for production systems—this section covers critical techniques for responsible AI deployment.
 
@@ -103,7 +103,7 @@ Master techniques for safe, aligned, and responsible LLM outputs. Learn content 
 |**[[1.7.7 Uncertainty & Confidence]]**|Expressing uncertainty; confidence levels; acknowledging limits; avoiding overconfidence; calibration. Honest AI.|
 |**[[1.7.8 Refusal Strategies]]**|When to refuse; polite refusals; explaining limitations; alternative suggestions; boundary setting. Appropriate limits.|
 
-### **1.8 Multi-Turn & Conversational AI**
+### **[[1.8 Multi-Turn & Conversational AI]]**
 
 Master techniques for effective multi-turn conversations and dialogue management. Learn context maintenance, conversation flow, clarification strategies, and memory techniques. Understand turn-taking, topic tracking, and conversation repair. Multi-turn conversations require different techniques than single-turn—essential for chatbots and assistants.
 
@@ -118,7 +118,7 @@ Master techniques for effective multi-turn conversations and dialogue management
 |**[[1.8.7 Proactive Engagement]]**|Asking relevant questions; making suggestions; anticipating needs; driving conversation; engagement strategies. Active participation.|
 |**[[1.8.8 Conversation Closure]]**|Ending conversations; summarization; next steps; graceful exits; follow-up offers. Proper endings.|
 
-### **1.9 Domain-Specific Prompting**
+### **[[1.9 Domain-Specific Prompting]]**
 
 Master prompting techniques for specialized domains. Learn medical, legal, technical, creative, and educational prompting. Understand domain-specific terminology, compliance requirements, and quality standards. Each domain has unique requirements—this section covers vertical-specific techniques essential for professional applications.
 
@@ -133,7 +133,7 @@ Master prompting techniques for specialized domains. Learn medical, legal, techn
 |**[[1.9.7 Scientific & Research]]**|Scientific methodology; literature review; hypothesis generation; data analysis; technical accuracy; citation. Research applications.|
 |**[[1.9.8 Customer Support]]**|Support workflows; troubleshooting; empathy; resolution steps; escalation; satisfaction; brand voice. Service applications.|
 
-### **1.10 Evaluation & Testing**
+### **[[1.10 Evaluation & Testing]]**
 
 Master techniques for evaluating and testing prompts systematically. Learn metrics, benchmarks, human evaluation, and automated testing. Understand A/B testing, regression testing, and continuous improvement. Proper evaluation separates guesswork from systematic optimization—essential for production-grade prompt engineering.
 
@@ -148,7 +148,7 @@ Master techniques for evaluating and testing prompts systematically. Learn metri
 |**[[1.10.7 Performance Monitoring]]**|Production metrics; latency; cost; quality tracking; drift detection; alerting. Ongoing monitoring.|
 |**[[1.10.8 Continuous Improvement]]**|Iterative refinement; feedback loops; version control; prompt evolution; learning from production. Optimization cycle.|
 
-### **1.11 Model-Specific Optimization**
+### **[[1.11 Model-Specific Optimization]]**
 
 Master techniques specific to different LLM families. Learn GPT-4 vs GPT-3.5 optimization, Claude-specific techniques, open-source model prompting, and multi-model strategies. Understand model capabilities, limitations, and cost-performance trade-offs. Each model has unique characteristics—this section covers model-specific optimization essential for production systems.
 
@@ -163,7 +163,7 @@ Master techniques specific to different LLM families. Learn GPT-4 vs GPT-3.5 opt
 |**[[1.11.7 Function Calling]]**|Tool use; function definitions; parameter specification; function calling vs prompting; error handling. Structured interaction.|
 |**[[1.11.8 Vision-Language Models]]**|Image prompting; GPT-4V; Claude Vision; describing images; OCR; visual reasoning; multimodal tasks. Visual understanding.|
 
-### **1.12 Production Prompt Engineering**
+### **[[1.12 Production Prompt Engineering]]**
 
 Master engineering practices for production prompt systems. Learn version control, prompt management, API integration, and deployment strategies. Understand caching, batching, rate limiting, and cost optimization. Learn observability, monitoring, and debugging production issues. This section covers enterprise-grade prompt engineering essential for scalable systems.
 
@@ -178,7 +178,7 @@ Master engineering practices for production prompt systems. Learn version contro
 |**[[1.12.7 Observability]]**|Logging; tracing; metrics; debugging; error tracking; performance monitoring; analytics. System visibility.|
 |**[[1.12.8 Deployment Strategies]]**|Blue-green deployment; canary releases; gradual rollout; feature flags; A/B testing infrastructure. Production deployment.|
 
-### **1.13 Emerging Techniques & Research**
+### **[[1.13 Emerging Techniques & Research]]**
 
 Master cutting-edge prompt engineering techniques from recent research. Learn prompt chaining, automatic prompt engineering, meta-prompting, and prompt tuning. Understand constitutional AI, instruction tuning, and RLHF implications. Stay current with latest research and techniques. This section covers state-of-the-art methods essential for advanced practitioners.
 
