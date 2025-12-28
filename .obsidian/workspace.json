@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "What is an LLM Agent"
             }
           }
         ]
@@ -250,8 +250,11 @@
   },
   "active": "153f6d06ca3545b7",
   "lastOpenFiles": [
-    "Untitled.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1 What are LLM Agents.md",
+    "AGENTIC AI CORE/AGENTIC AI CORE.md",
     "Untitled 1.md",
+    "Untitled.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.12 Debugging Best Practices & Pitfalls.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.11 Debugging Common Issues.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging/1.1.8.10 LangSmith Integration.md",
@@ -273,9 +276,6 @@
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.6 Framework Trade-offs.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.5 When LangGraph Fits.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.4 LangGraph vs CrewAI.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.3 LangGraph vs AutoGPT.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.2 LangGraph vs LangChain LCEL.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.1 LangGraph vs Alternatives Overview.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.6 Simple Graph Patterns",
