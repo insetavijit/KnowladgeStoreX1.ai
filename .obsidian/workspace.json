@@ -13,29 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordpressSyllabus/WordPress Development.md",
+                "file": "AGENTIC AI CORE/AGENTIC AI CORE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WordPress Development"
+              "title": "AGENTIC AI CORE"
             }
           },
           {
-            "id": "b0f9cdc83ff9a139",
+            "id": "a27edb265944f1ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordpressSyllabus/1.1.1 Professional Dev Environment/1.1.1 Professional Dev Environment.md",
+                "file": "LangGraph/1.1.1 LangGraph Setup & Architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.1 Professional Dev Environment"
+              "title": "1.1.1 LangGraph Setup & Architecture"
+            }
+          },
+          {
+            "id": "47f1b065b8018636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LangGraph/LangGraph.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LangGraph"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -214,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 226
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,52 +243,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3ea8d591869e90f",
+  "active": "47f1b065b8018636",
   "lastOpenFiles": [
-    "1.10.4 Career Pathways.md",
+    "LangGraph/1.1.4 Edges & Control Flow.md",
+    "LangGraph/LangGraph.md",
+    "LangGraph/1.1.2 State & StateGraph.md",
+    "LangGraph/1.1.8 Visualization & Debugging.md",
+    "LangGraph/1.1.7 LangGraph vs Alternatives.md",
+    "LangGraph/1.1.6 Simple Graph Patterns.md",
+    "LangGraph/1.1.5 Compilation & Execution.md",
+    "LangGraph/1.1.3 Nodes & Functions.md",
+    "1.2.1.1 Full Site Editing (FSE) Overview.md",
+    "LangGraph/1.1.1 LangGraph Setup & Architecture.md",
+    "LangGraph",
+    "AGENTIC AI CORE/AGENTIC AI CORE.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.1 Block Theme Fundamentals/1.2.1 Block Theme Fundamentals.md",
+    "WordpressSyllabus/1.1 WordPress Development Foundations/1.1.1 Professional Dev Environment/1.1.1.1 Local Environment Tools.md",
+    "WordpressSyllabus/1.1 WordPress Development Foundations/1.1.1 Professional Dev Environment/1.1.1 Professional Dev Environment.md",
     "WordpressSyllabus/WordPress Development.md",
-    "1.10.3 WordPress Community.md",
-    "1.10.2 Project Management.md",
-    "1.10.1 Pricing & Project Scoping.md",
-    "1.9.4 Client Communication.md",
-    "1.9.3 Freelance Platforms.md",
-    "1.9.2 Case Study Documentation.md",
-    "1.9.1 Portfolio Website Creation.md",
-    "1.8.3 Headless WooCommerce.md",
-    "1.8.2 Headless WordPress.md",
-    "1.8.1 REST API & GraphQL.md",
-    "1.7.3 Client Handoff & Training.md",
-    "1.7.2 Advanced Page Builders.md",
-    "1.7.1 Elementor Development.md",
-    "1.6.3 Technical SEO & Analytics.md",
-    "1.6.2 WordPress Security.md",
-    "1.6.1 Core Web Vitals & Performance.md",
-    "1.5.3 Cart, Checkout & Performance.md",
-    "1.5.2 Product Display & Features.md",
-    "1.5.1 WooCommerce Templates & Hooks.md",
-    "1.4.4 Dynamic & Advanced Blocks.md",
-    "1.4.3 Block Editor Components.md",
-    "1.4.2 React for WordPress.md",
-    "1.4.1 Block Development Basics.md",
-    "1.3.4 Advanced Template Features.md",
-    "WordpressSyllabus/1.1.1 Professional Dev Environment",
-    "WordpressSyllabus",
-    "Digital Marketing",
-    "Untitled",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview",
+    "WordpressSyllabus/WordPress Multisite Networks.md",
+    "WordpressSyllabus/1.10 Professional Skills & Career Development/1.10 Professional Skills & Career Development.md",
+    "WordpressSyllabus/1.10 Professional Skills & Career Development",
+    "WordpressSyllabus/1.9 Portfolio Development & Client Acquisition/1.9 Portfolio Development & Client Acquisition.md",
+    "WordpressSyllabus/1.9 Portfolio Development & Client Acquisition",
+    "WordpressSyllabus/1.8 Modern WordPress & Headless",
+    "WordpressSyllabus/1.7 Page Builders & Client Tools/1.7 Page Builders & Client Tools.md",
+    "WordpressSyllabus/1.7 Page Builders & Client Tools",
+    "WordpressSyllabus/1.6 Performance, Security & SEO",
+    "WordpressSyllabus/1.4 Custom Block Development & JavaScript/1.4 Custom Block Development & JavaScript.md",
+    "WordpressSyllabus/1.5 WooCommerce Development/1.5 WooCommerce Development.md",
+    "WordpressSyllabus/1.5 WooCommerce Development",
+    "WordpressSyllabus/1.4 Custom Block Development & JavaScript",
+    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3 Classic Theme Development & PHP.md",
+    "WordpressSyllabus/1.3 Classic Theme Development & PHP",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2 Block Theme Development (Modern Standard).md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)",
+    "WordpressSyllabus/1.1 WordPress Development Foundations/1.1 WordPress Development Foundations.md",
+    "WordpressSyllabus/Untitled.md",
+    "WordpressSyllabus/1.10 Professional Skills & Career Development/1.10.3 WordPress Community/1.10.3 WordPress Community.md",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (2).png",
-    "@PROMPTs",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (1).png",
     "AGENTIC AI CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1-.png",
     "AGENTIC AI CORE/imgs/Multiagent-system-Architecture-1024x733.webp",
     "AGENTIC AI CORE/imgs/0_CP98j5HdhmC-nTON.jpg",
-    "AGENTIC AI CORE/imgs",
     "AGENTIC AI CORE/imgs/1_Vc-7XybdU2xvwJqYYaA3cg.png",
     "AGENTIC AI CORE/imgs/magentic-pattern-example.svg",
-    "_explorations",
-    "Prompt Engineering",
-    "_bin",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
