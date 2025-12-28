@@ -46,3 +46,8 @@ Please:
    - Ensure technical and thematic alignment with root file
 
 Expected Result: A complete knowledge base where every topic has equivalent depth and structure.
+
+-----
+
+
+can you do the same as done to the 1.1.1 dir for 1.1.2 dir like applay the prompt but before that tell me what you planded to do
