@@ -13,7 +13,7 @@ Master LangGraph as the essential framework for building stateful, multi-actor L
 | **[[1.1.7 LangGraph vs Alternatives]]**      | LangGraph vs LangChain LCEL; vs AutoGPT; vs CrewAI; when LangGraph fits; trade-offs; framework selection. Understanding options.                                                                    |
 | **[[1.1.8 Visualization & Debugging]]**      | Graph visualization; Mermaid diagrams; debugging tools; print debugging; logging state; tracing execution; understanding flow. Development tools.                                                   |
 
-### **1.2 Advanced State Management**
+### **[[1.2 Advanced State Management]]**
 
 Master sophisticated state handling essential for complex agents. Learn state reducers, channels, shared state, and state transformations. Understand how to manage conversation history, tool results, and agent memory. Learn state validation, schemas, and type safety. State management is critical—poor state design leads to bugs, infinite loops, and unpredictable behavior. This section covers patterns for reliable, maintainable stateful applications.
 
@@ -28,50 +28,50 @@ Master sophisticated state handling essential for complex agents. Learn state re
 | **[[1.2.7 State Persistence]]**          | Checkpointers; MemorySaver; SqliteSaver; PostgresSaver; saving/loading state; resuming execution; state versioning. Durable state.                       |
 | **[[1.2.8 State Transformation]]**       | Pre-processing state; post-processing; state mapping; data transformation; normalization; state cleanup. State operations.                               |
 
-### **1.3 Multi-Agent Systems**
+### **[[1.3 Multi-Agent Systems]]**
 
 Build sophisticated multi-agent architectures with specialized agents, communication protocols, and orchestration patterns. Learn supervisor patterns, hierarchical agents, collaborative workflows, and agent handoffs. Understand when to use multiple agents vs single agent, how agents communicate, and coordination strategies. Multi-agent systems enable division of labor and specialized expertise—essential for complex applications.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.3.1 Agent Architecture Patterns]]**|Single vs multi-agent; supervisor pattern; peer-to-peer; hierarchical; network topology; communication patterns; coordination strategies. Design patterns.|
-|**[[1.3.2 Supervisor Agents]]**|Supervisor role; agent selection; task delegation; result aggregation; error handling; supervisor prompts; dynamic routing. Orchestration.|
-|**[[1.3.3 Specialized Agents]]**|Research agents; planning agents; execution agents; critic agents; code agents; data analysis agents; domain-specific agents. Task specialization.|
-|**[[1.3.4 Agent Communication]]**|Message passing; shared state; agent-to-agent messages; protocols; handoff mechanisms; communication channels. Inter-agent messaging.|
-|**[[1.3.5 Hierarchical Agents]]**|Multi-level hierarchy; parent-child agents; delegation chains; result propagation; hierarchical planning; nested workflows. Layered systems.|
-|**[[1.3.6 Collaborative Workflows]]**|Parallel agent execution; consensus building; voting mechanisms; collaborative decision-making; conflict resolution. Teamwork patterns.|
-|**[[1.3.7 Agent Handoffs]]**|Transferring control; handoff conditions; context preservation; handoff protocols; routing logic; when to hand off. Control transfer.|
-|**[[1.3.8 Multi-Agent Evaluation]]**|Testing multi-agent systems; coordination metrics; agent performance; system-level metrics; debugging interactions. Quality assurance.|
+| Topic                                     | Focus & Purpose                                                                                                                                            |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.3.1 Agent Architecture Patterns]]** | Single vs multi-agent; supervisor pattern; peer-to-peer; hierarchical; network topology; communication patterns; coordination strategies. Design patterns. |
+| **[[1.3.2 Supervisor Agents]]**           | Supervisor role; agent selection; task delegation; result aggregation; error handling; supervisor prompts; dynamic routing. Orchestration.                 |
+| **[[1.3.3 Specialized Agents]]**          | Research agents; planning agents; execution agents; critic agents; code agents; data analysis agents; domain-specific agents. Task specialization.         |
+| **[[1.3.4 Agent Communication]]**         | Message passing; shared state; agent-to-agent messages; protocols; handoff mechanisms; communication channels. Inter-agent messaging.                      |
+| **[[1.3.5 Hierarchical Agents]]**         | Multi-level hierarchy; parent-child agents; delegation chains; result propagation; hierarchical planning; nested workflows. Layered systems.               |
+| **[[1.3.6 Collaborative Workflows]]**     | Parallel agent execution; consensus building; voting mechanisms; collaborative decision-making; conflict resolution. Teamwork patterns.                    |
+| **[[1.3.7 Agent Handoffs]]**              | Transferring control; handoff conditions; context preservation; handoff protocols; routing logic; when to hand off. Control transfer.                      |
+| **[[1.3.8 Multi-Agent Evaluation]]**      | Testing multi-agent systems; coordination metrics; agent performance; system-level metrics; debugging interactions. Quality assurance.                     |
 
 ### **1.4 Tool Use & Function Calling**
 
 Master tool integration and function calling essential for capable agents. Learn tool definition, binding, execution, and error handling. Understand parallel tool use, tool selection, and creating custom tools. Learn structured output, function schemas, and validation. Tools extend agent capabilities—proper tool use separates limited chatbots from powerful autonomous systems.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.4.1 Tool Definition]]**|Creating tools; @tool decorator; tool schemas; input/output types; tool descriptions; docstrings; tool naming. Tool creation.|
-|**[[1.4.2 Tool Binding & Execution]]**|Binding tools to LLMs; tool invocation; ToolExecutor; executing tool calls; tool results; error handling; timeout handling. Using tools.|
-|**[[1.4.3 Parallel Tool Use]]**|Multiple tool calls; parallel execution; result aggregation; dependencies; when parallel helps; ordering tool calls. Concurrent tools.|
-|**[[1.4.4 Structured Output Tools]]**|Pydantic schemas; structured responses; JSON mode; extraction tools; parsing output; validation; error recovery. Formatted results.|
-|**[[1.4.5 Custom Tools]]**|API integrations; database tools; file system tools; web scraping tools; calculation tools; specialized tools. Building tools.|
-|**[[1.4.6 Tool Selection Strategies]]**|LLM-based selection; rule-based selection; tool routing; tool recommendation; few-shot examples; improving selection. Smart tool choice.|
-|**[[1.4.7 Tool Error Handling]]**|Retry logic; fallback tools; error messages; graceful degradation; error context; error recovery patterns. Robust tool use.|
-|**[[1.4.8 Tool Libraries]]**|LangChain tools; custom tool libraries; tool discovery; tool versioning; tool management; reusable tools. Tool ecosystem.|
+| Topic                                   | Focus & Purpose                                                                                                                          |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.4.1 Tool Definition]]**           | Creating tools; @tool decorator; tool schemas; input/output types; tool descriptions; docstrings; tool naming. Tool creation.            |
+| **[[1.4.2 Tool Binding & Execution 1]]**  | Binding tools to LLMs; tool invocation; ToolExecutor; executing tool calls; tool results; error handling; timeout handling. Using tools. |
+| **[[1.4.3 Parallel Tool Use 1]]**         | Multiple tool calls; parallel execution; result aggregation; dependencies; when parallel helps; ordering tool calls. Concurrent tools.   |
+| **[[1.4.4 Structured Output Tools 1]]**   | Pydantic schemas; structured responses; JSON mode; extraction tools; parsing output; validation; error recovery. Formatted results.      |
+| **[[1.4.5 Custom Tools 1]]**              | API integrations; database tools; file system tools; web scraping tools; calculation tools; specialized tools. Building tools.           |
+| **[[1.4.6 Tool Selection Strategies 1]]** | LLM-based selection; rule-based selection; tool routing; tool recommendation; few-shot examples; improving selection. Smart tool choice. |
+| **[[1.4.7 Tool Error Handling 1]]**       | Retry logic; fallback tools; error messages; graceful degradation; error context; error recovery patterns. Robust tool use.              |
+| **[[1.4.8 Tool Libraries 1]]**            | LangChain tools; custom tool libraries; tool discovery; tool versioning; tool management; reusable tools. Tool ecosystem.                |
 
 ### **1.5 Human-in-the-Loop & Interrupts**
 
 Build interactive systems with human oversight, approval workflows, and interruption points. Learn interrupt nodes, breakpoints, user input, and resumption. Understand when human input is needed, how to pause execution, and approval patterns. Human-in-the-loop is critical for high-stakes applications, compliance, and reliability. This section covers patterns for trustworthy, controllable AI systems.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.5.1 Interrupt Basics]]**|interrupt() function; breakpoints; pausing execution; resuming; interrupt_before; interrupt_after; when to interrupt. Pause points.|
-|**[[1.5.2 User Input Patterns]]**|Collecting user input; input validation; user prompts; input schemas; handling user responses; multi-turn input. Gathering feedback.|
-|**[[1.5.3 Approval Workflows]]**|Review and approve; action confirmation; multi-level approval; rejection handling; approval routing; compliance patterns. Oversight systems.|
-|**[[1.5.4 State Inspection]]**|Inspecting current state; reviewing decisions; state visualization; audit trails; explaining agent reasoning. Transparency.|
-|**[[1.5.5 State Modification]]**|Manual state updates; correcting agent errors; injecting information; human edits; resuming with changes. Human correction.|
-|**[[1.5.6 Conditional Interrupts]]**|Dynamic interrupts; confidence thresholds; risk-based interrupts; selective human review; escalation triggers. Smart pausing.|
-|**[[1.5.7 UI Integration]]**|Web interfaces for HITL; chat interfaces; approval UIs; state editors; resumption controls; status displays. User interfaces.|
-|**[[1.5.8 HITL Best Practices]]**|When to use HITL; interruption design; user experience; timeout handling; async HITL; production patterns. Effective oversight.|
+| Topic                                | Focus & Purpose                                                                                                                              |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.5.1 Interrupt Basics]]**       | interrupt() function; breakpoints; pausing execution; resuming; interrupt_before; interrupt_after; when to interrupt. Pause points.          |
+| **[[1.5.2 User Input Patterns]]**    | Collecting user input; input validation; user prompts; input schemas; handling user responses; multi-turn input. Gathering feedback.         |
+| **[[1.5.3 Approval Workflows]]**     | Review and approve; action confirmation; multi-level approval; rejection handling; approval routing; compliance patterns. Oversight systems. |
+| **[[1.5.4 State Inspection]]**       | Inspecting current state; reviewing decisions; state visualization; audit trails; explaining agent reasoning. Transparency.                  |
+| **[[1.5.5 State Modification]]**     | Manual state updates; correcting agent errors; injecting information; human edits; resuming with changes. Human correction.                  |
+| **[[1.5.6 Conditional Interrupts]]** | Dynamic interrupts; confidence thresholds; risk-based interrupts; selective human review; escalation triggers. Smart pausing.                |
+| **[[1.5.7 UI Integration]]**         | Web interfaces for HITL; chat interfaces; approval UIs; state editors; resumption controls; status displays. User interfaces.                |
+| **[[1.5.8 HITL Best Practices]]**    | When to use HITL; interruption design; user experience; timeout handling; async HITL; production patterns. Effective oversight.              |
 
 ### **1.6 Memory & Persistence**
 
