@@ -4,40 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "32408cb79b1a255d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fcf5249044241394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "408c879711ed7688",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          }
-        ]
-      },
-      {
         "id": "c80eff0b6a07b8d0",
         "type": "tabs",
         "children": [
@@ -47,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
-                "mode": "source",
+                "file": "What is LangGraph.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "What is an LLM Agent"
+              "title": "What is LangGraph"
             }
           }
         ]
@@ -250,6 +216,11 @@
   },
   "active": "153f6d06ca3545b7",
   "lastOpenFiles": [
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview.md",
+    "What is LangGraph.md",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1 LangGraph Setup & Architecture.md",
+    "LangGraph/LangGraph.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1 What are LLM Agents.md",
     "AGENTIC AI CORE/AGENTIC AI CORE.md",
@@ -271,11 +242,6 @@
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.11 Hybrid Approaches.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.10 Other Alternatives.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.9 Migration Considerations.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.8 Integration Possibilities.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.7 Framework Selection Criteria.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.6 Framework Trade-offs.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.5 When LangGraph Fits.md",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives/1.1.7.4 LangGraph vs CrewAI.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.8 Visualization & Debugging",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.7 LangGraph vs Alternatives",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.6 Simple Graph Patterns",
