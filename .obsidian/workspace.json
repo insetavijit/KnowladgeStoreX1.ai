@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WordpressSyllabus/WordPress Multisite Networks.md",
+                "file": "WordpressSyllabus/WordPress Development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WordPress Multisite Networks"
+              "title": "WordPress Development"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
+                "file": "WordpressSyllabus/1.1.1 Professional Dev Environment/1.1.1 Professional Dev Environment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.1.1 LLM Agents Overview"
+              "title": "1.1.1 Professional Dev Environment"
             }
           }
         ]
@@ -230,33 +230,34 @@
   },
   "active": "fcf5249044241394",
   "lastOpenFiles": [
-    "WordpressSyllabus/1.1.1 Professional Dev Environment.md",
-    "WordpressSyllabus/WordPress Multisite Networks.md",
-    "WordpressSyllabus/1.1.1.4 Multiple Sites & Cloning.md",
-    "WordpressSyllabus/Blueprints & Templates.md",
-    "WordpressSyllabus/Cloning a Site.md",
-    "WordpressSyllabus/Managing Multiple Local Sites.md",
+    "1.6.2 WordPress Security.md",
     "WordpressSyllabus/WordPress Development.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1 What are LLM Agents.md",
-    "AGENTIC AI CORE/AGENTIC AI CORE.md",
-    "AGENTIC AI CORE/Supli/1.1 LLM Agent Foundations.md",
-    "WordpressSyllabus/1.1.1.1 Local Environment Tools.md",
-    "WordpressSyllabus/1.1.1.10 Deployment Checklists & Standards.md",
-    "WordpressSyllabus/1.1.1.9 Performance & Environment Parity.md",
-    "WordpressSyllabus/1.1.1.8 Staging & Workflow Pipelines.md",
-    "WordpressSyllabus/1.1.1.6 Debugging Tools & Practices.md",
-    "WordpressSyllabus/1.1.1.5 WP-CLI & Command Line.md",
-    "WordpressSyllabus/1.1.1.7 Version Control Integration.md",
-    "WordpressSyllabus/1.1.1.3 Database Management.md",
-    "WordpressSyllabus/1.1.1.2 WordPress Installation & Structure.md",
+    "1.6.1 Core Web Vitals & Performance.md",
+    "1.5.3 Cart, Checkout & Performance.md",
+    "1.5.2 Product Display & Features.md",
+    "1.5.1 WooCommerce Templates & Hooks.md",
+    "1.4.4 Dynamic & Advanced Blocks.md",
+    "1.4.3 Block Editor Components.md",
+    "1.4.2 React for WordPress.md",
+    "1.4.1 Block Development Basics.md",
+    "1.3.4 Advanced Template Features.md",
+    "1.3.3 Custom Post Types & Taxonomies.md",
+    "1.3.2 Hooks & Functions.md",
+    "1.3.1 Theme Structure & Templates.md",
+    "1.2.4 Full Site Editing.md",
+    "1.2.3 Block Patterns & Templates.md",
+    "1.2.2 theme.json Mastery.md",
+    "1.2.1 Block Theme Fundamentals.md",
+    "1.1.4 PHP for WordPress.md",
+    "1.1.3 WordPress Architecture.md",
+    "1.1.2 Git & Version Control.md",
     "WordpressSyllabus/Untitled.md",
+    "WordpressSyllabus/1.1.1 Professional Dev Environment/1.1.1.1 Local Environment Tools.md",
+    "WordpressSyllabus/1.1.1 Professional Dev Environment/1.1.1 Professional Dev Environment.md",
+    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
+    "WordpressSyllabus/1.1.1 Professional Dev Environment",
+    "WordpressSyllabus/WordPress Multisite Networks.md",
     "WordpressSyllabus",
-    "Digital Marketing/Value Proposition & Differentiation.md",
-    "Digital Marketing/1.1.1 Marketing Strategy Basics.md",
-    "Digital Marketing/1.1.1.1 Marketing Strategy Overview.md",
-    "Digital Marketing/What is Marketing Strategy.md",
     "Digital Marketing",
     "Untitled",
     "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview",
@@ -273,7 +274,6 @@
     "_explorations",
     "Prompt Engineering",
     "_bin",
-    "AGENTIC AI CORE/Supli",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
