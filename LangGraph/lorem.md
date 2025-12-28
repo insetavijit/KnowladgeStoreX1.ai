@@ -37,3 +37,27 @@ i want a 1.1.1 LangGraph Setup & Architecture.md like document ( style depth ) f
 
 
 --
+
+| **[[1.3.1 Agent Architecture Patterns]]** | Single vs multi-agent; supervisor pattern; peer-to-peer; hierarchical; network topology; communication patterns; coordination strategies. Design patterns. |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.3.2 Supervisor Agents]]**           | Supervisor role; agent selection; task delegation; result aggregation; error handling; supervisor prompts; dynamic routing. Orchestration.                 |
+| **[[1.3.3 Specialized Agents]]**          | Research agents; planning agents; execution agents; critic agents; code agents; data analysis agents; domain-specific agents. Task specialization.         |
+| **[[1.3.4 Agent Communication]]**         | Message passing; shared state; agent-to-agent messages; protocols; handoff mechanisms; communication channels. Inter-agent messaging.                      |
+| **[[1.3.5 Hierarchical Agents]]**         | Multi-level hierarchy; parent-child agents; delegation chains; result propagation; hierarchical planning; nested workflows. Layered systems.               |
+| **[[1.3.6 Collaborative Workflows]]**     | Parallel agent execution; consensus building; voting mechanisms; collaborative decision-making; conflict resolution. Teamwork patterns.                    |
+| **[[1.3.7 Agent Handoffs]]**              | Transferring control; handoff conditions; context preservation; handoff protocols; routing logic; when to hand off. Control transfer.                      |
+| **[[1.3.8 Multi-Agent Evaluation]]**      | Testing multi-agent systems; coordination metrics; agent performance; system-level metrics; debugging interactions. Quality assurance.                     |
+
+
+---
+
+
+| **[[1.4.1 Tool Definition]]**           | Creating tools; @tool decorator; tool schemas; input/output types; tool descriptions; docstrings; tool naming. Tool creation.            |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.4.2 Tool Binding & Execution]]**  | Binding tools to LLMs; tool invocation; ToolExecutor; executing tool calls; tool results; error handling; timeout handling. Using tools. |
+| **[[1.4.3 Parallel Tool Use]]**         | Multiple tool calls; parallel execution; result aggregation; dependencies; when parallel helps; ordering tool calls. Concurrent tools.   |
+| **[[1.4.4 Structured Output Tools]]**   | Pydantic schemas; structured responses; JSON mode; extraction tools; parsing output; validation; error recovery. Formatted results.      |
+| **[[1.4.5 Custom Tools]]**              | API integrations; database tools; file system tools; web scraping tools; calculation tools; specialized tools. Building tools.           |
+| **[[1.4.6 Tool Selection Strategies]]** | LLM-based selection; rule-based selection; tool routing; tool recommendation; few-shot examples; improving selection. Smart tool choice. |
+| **[[1.4.7 Tool Error Handling]]**       | Retry logic; fallback tools; error messages; graceful degradation; error context; error recovery patterns. Robust tool use.              |
+| **[[1.4.8 Tool Libraries]]**            | LangChain tools; custom tool libraries; tool discovery; tool versioning; tool management; reusable tools. Tool ecosystem.                |
