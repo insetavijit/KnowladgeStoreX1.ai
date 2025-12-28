@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "153f6d06ca3545b7",
+            "id": "9beb3966a5bc40e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2 theme.json Mastery.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1.2.2 theme.json Mastery"
+              "title": "New tab"
             }
           }
         ]
@@ -214,8 +210,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "153f6d06ca3545b7",
+  "active": "9beb3966a5bc40e8",
   "lastOpenFiles": [
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.12 Performance & Maintainability.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.11 Common Pitfalls & Recovery.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.10 Workflow Best Practices.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.9 User Permissions & Locking.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.8 Exporting & Syncing Changes.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.7 Preview & View Modes.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.6 Navigation Blocks & Menus.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.5 Global Styles Workflow.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.4 Managing Template Parts.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4 Full Site Editing.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.3 Editing Templates Live.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2 theme.json Mastery.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.2 Site Editor Interface.md",
+    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.4 Full Site Editing/1.2.4.1 FSE Concepts & Scope.md",
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.12 Packaging & Distribution.md",
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.11 Testing Across Templates.md",
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.10 Best Practices & Naming.md",
@@ -228,20 +238,6 @@
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.3 Pattern Categories.md",
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.2 Creating Custom Patterns.md",
     "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.3 Block Patterns & Templates/1.2.3.1 Block Patterns Overview.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.12 Performance & Maintainability.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.11 Validation & Debugging.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.10 Versioning v2 vs v3.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.9 Style Variations.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.8 Styles Configuration.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.7 Custom Settings & Extensions.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.6 Spacing Scale.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.5 Layout Settings.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.4 Typography System.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.3 Color Palettes & Gradients.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.2 Settings Configuration.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.2 theme.json Mastery/1.2.2.1 theme.json Purpose & Schema.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.1 Block Theme Fundamentals/1.2.1.3 theme.json Deep Dive.md",
-    "WordpressSyllabus/1.2 Block Theme Development (Modern Standard)/1.2.1 Block Theme Fundamentals/1.2.1.12 Testing & Deployment.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.12 Best Practices & Pitfalls",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.11 When to Use LangGraph",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.10 LangGraph vs LangChain Chains",
