@@ -9,3 +9,6 @@
 | **Immutability Implication**  | Reassignment never mutates immutable objects like `int` or `str`.              |
 | **Scope-Aware Binding**       | Name binding occurs within a scope (local, enclosing, global, built-in).       |
 | **Garbage Collection**        | Objects with no remaining references are eligible for garbage collection.      |
+
+----
+
