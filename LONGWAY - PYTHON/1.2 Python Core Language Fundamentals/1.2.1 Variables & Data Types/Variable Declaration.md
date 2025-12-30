@@ -1,0 +1,116 @@
+| **Concept**                       | **Brief**                                                                      |
+| --------------------------------- | ------------------------------------------------------------------------------ |
+| **[[Name Binding]]**              | A variable name is bound to an object in memory, not a storage container.      |
+| **[[Assignment Operator]] (`=`)** | Binds a name to an object; it does not copy the value.                         |
+| **[[Reassignment]]**              | Rebinding a name to a different object; the previous object remains unchanged. |
+| **[[Dynamic Typing]]**            | The same variable name can bind to objects of different types over time.       |
+| **[[Multiple Assignment]]**       | Multiple names can reference the same object (`a = b = 10`).                   |
+| **[[Object Identity]]**           | Variables reference object identities, not raw values.                         |
+| **[[Immutability Implication]]**  | Reassignment never mutates immutable objects like `int` or `str`.              |
+| **[[Scope-Aware Binding]]**       | Name binding occurs within a scope (local, enclosing, global, built-in).       |
+| **[[Garbage Collection]]**        | Objects with no remaining references are eligible for garbage collection.      |
+## **Python Variables — 30-Second Oral Drill**
+
+1. **What is a variable in Python?** -- A variable is a name bound to an object, not a storage container.
+    
+2. **What is name binding?**  
+    Name binding is associating a variable name with an object in memory.
+    
+3. **What does the assignment operator do?**  
+    It binds a name to an object; it does not copy or mutate data.
+    
+4. **Are variables typed in Python?**  
+    No, objects are typed; variables are not.
+    
+5. **What is dynamic typing?**  
+    A name can be rebound to objects of different types at runtime.
+    
+6. **What happens on reassignment?**  
+    The name points to a new object; the old object may be garbage collected.
+    
+7. **Does reassignment mutate objects?**  
+    No, it only changes the name–object binding.
+    
+8. **What is multiple assignment?**  
+    Multiple names bound to the same object.
+    
+9. **Why is `a = b = []` dangerous?**  
+    Both names share and mutate the same list.
+    
+10. **What do variables actually reference?**  
+    They reference object identities.
+    
+11. **Difference between `is` and `==`?**  
+    `is` checks identity; `==` checks value equality.
+    
+12. **What is immutability?**  
+    An object’s state cannot be changed after creation.
+    
+13. **How does immutability affect reassignment?**  
+    Reassignment always creates a new object.
+    
+14. **Why are ints and strings safe to share?**  
+    They are immutable.
+    
+15. **What causes shared-state bugs?**  
+    Multiple references to the same mutable object.
+    
+16. **What is scope-aware binding?**  
+    Names are bound based on LEGB scope rules.
+    
+17. **Why does `UnboundLocalError` occur?**  
+    Assignment makes a name local and shadows outer bindings.
+    
+18. **What happens to unreferenced objects?**  
+    They become eligible for garbage collection.
+    
+19. **What increases GC pressure?**  
+    Frequent object creation and reassignment.
+    
+20. **Core Python variable mental model?**  
+    Names point to objects; objects own the data.
+
+---
+## **Python Variables — Interviewer Trap Variants**
+
+**If `x = y`, does Python copy the value from `y` into `x`?** — No, it binds `x` to the same object that `y` references.
+
+**If two variables are equal with `==`, are they always the same object?** — No, `==` checks value equality, not object identity.
+
+**Does `x += 1` always mutate `x`?** — No, for immutable types it creates a new object and rebinds the name.
+
+**If you reassign a variable, is the old object immediately deleted?** — No, it is deleted only if no references remain.
+
+**Is `a = b = []` equivalent to `a = []; b = []`?** — No, the first shares one list; the second creates two separate lists.
+
+**If a function reads a global variable, does it need the `global` keyword?** — No, `global` is only required for assignment, not reading.
+
+**Why does `UnboundLocalError` occur even though a global variable exists?** — Because assignment inside the function makes the name local at compile time.
+
+**Does Python variables having no type mean Python is weakly typed?** — No, Python is strongly typed; types belong to objects, not variables.
+
+**If two lists have the same contents, will mutating one affect the other?** — Only if they reference the same object identity.
+
+**Is reassignment the same as mutation?** — No, reassignment changes bindings; mutation changes object state.
+
+**Does passing an object to a function copy it?** — No, the function parameter is another reference to the same object.
+
+**If a list is modified inside a function, why does the caller see the change?** — Because both references point to the same mutable object.
+
+**Why is `id(x)` sometimes reused for different objects?** — Because memory can be reclaimed and reused after garbage collection.
+
+**Does Python guarantee immediate garbage collection after reassignment?** — No, only reference counting is immediate; cyclic GC is periodic.
+
+**Are default function arguments evaluated at call time?** — No, they are evaluated once at function definition time.
+
+**Why are mutable default arguments considered a trap?** — Because the same object is shared across all function calls.
+
+**Can two different objects ever have the same `id` at the same time?** — No, object identities are unique while objects are alive.
+
+**Does `del x` delete the object `x` points to?** — No, it deletes the name binding, not necessarily the object.
+
+**If a variable goes out of scope, is the object destroyed?** — Only if no other references to the object exist.
+
+**What single question reveals real understanding of Python variables?** — “Is this code rebinding a name or mutating an object?”
+
+---

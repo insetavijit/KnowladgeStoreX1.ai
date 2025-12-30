@@ -10,16 +10,16 @@
 
 Master modern Python development environment setup and tooling. Learn version management, virtual environments, and code quality tools that are non-negotiable in professional settings. Understanding proper environment setup prevents dependency conflicts and enables reproducible builds. Production Python requires sophisticated tooling—basic installation is insufficient for professional work.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.1.1 Python Installation & Version Management]]**|Python 3.11+ installation; pyenv for version switching; multiple Python versions; system vs user installation; PATH configuration; upgrading Python. Version control.|
-|**[[1.1.2 Virtual Environments]]**|venv creation and activation; virtualenv vs venv; conda environments; environment isolation; requirements files; environment variables; .env files. Dependency isolation.|
-|**[[1.1.3 Package Management]]**|pip basics and advanced; pip-tools for pinning; poetry for modern packaging; uv for fast installs; dependency resolution; lock files; package caching. Dependency management.|
-|**[[1.1.4 Project Structure]]**|Package vs module organization; **init**.py files; imports (absolute vs relative); src layout; pyproject.toml; setup.py migration; manifest files. Code organization.|
-|**[[1.1.5 Code Formatting]]**|PEP 8 style guide; black auto-formatter; autopep8; yapf; isort for imports; line length debates; formatting configuration; pre-commit hooks. Code style.|
-|**[[1.1.6 Linting & Type Checking]]**|pylint configuration; flake8 rules; ruff (modern fast linter); mypy for type checking; pyright; pyre-check; type stub files. Code quality.|
-|**[[1.1.7 Git Workflow]]**|Repository initialization; staging and commits; branching strategies; merge vs rebase; pull requests; code review practices; conflict resolution; .gitignore patterns. Version control.|
-|**[[1.1.8 IDEs & Editors]]**|VS Code Python extension; PyCharm features; Jupyter notebooks vs scripts; debugging setup; integrated terminals; extension recommendations; productivity shortcuts. Development environment.|
+| Topic                                                  | Focus & Purpose                                                                                                                                                                              |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.1.1 Python Installation & Version Management]]** | Python 3.11+ installation; pyenv for version switching; multiple Python versions; system vs user installation; PATH configuration; upgrading Python. Version control.                        |
+| **[[1.1.2 Virtual Environments]]**                     | venv creation and activation; virtualenv vs venv; conda environments; environment isolation; requirements files; environment variables; .env files. Dependency isolation.                    |
+| **[[1.1.3 Package Management]]**                       | pip basics and advanced; pip-tools for pinning; poetry for modern packaging; uv for fast installs; dependency resolution; lock files; package caching. Dependency management.                |
+| **[[1.1.4 Project Structure]]**                        | Package vs module organization; **init**.py files; imports (absolute vs relative); src layout; pyproject.toml; setup.py migration; manifest files. Code organization.                        |
+| **[[1.1.5 Code Formatting]]**                          | PEP 8 style guide; black auto-formatter; autopep8; yapf; isort for imports; line length debates; formatting configuration; pre-commit hooks. Code style.                                     |
+| **[[1.1.6 Linting & Type Checking]]**                  | pylint configuration; flake8 rules; ruff (modern fast linter); mypy for type checking; pyright; pyre-check; type stub files. Code quality.                                                   |
+| **[[1.1.7 Git Workflow]]**                             | Repository initialization; staging and commits; branching strategies; merge vs rebase; pull requests; code review practices; conflict resolution; .gitignore patterns. Version control.      |
+| **[[1.1.8 IDEs & Editors]]**                           | VS Code Python extension; PyCharm features; Jupyter notebooks vs scripts; debugging setup; integrated terminals; extension recommendations; productivity shortcuts. Development environment. |
 
 ---
 
