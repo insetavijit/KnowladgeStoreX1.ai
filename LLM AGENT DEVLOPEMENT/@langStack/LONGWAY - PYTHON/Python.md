@@ -1,11 +1,3 @@
-# Job-Oriented Python Syllabus 2025
-
-## Industry-Ready Comprehensive Roadmap
-
-**Synthesized from 50+ job postings across Backend Development, Data Engineering, ML/AI Engineering, and DevOps roles. This syllabus focuses on production-ready skills that complement all Python career paths while incorporating cutting-edge developments through 2025.**
-
----
-
 ## **1.1 Python Environment & Tooling Fundamentals**
 
 Master modern Python development environment setup and tooling. Learn version management, virtual environments, and code quality tools that are non-negotiable in professional settings. Understanding proper environment setup prevents dependency conflicts and enables reproducible builds. Production Python requires sophisticated tooling—basic installation is insufficient for professional work.
@@ -44,16 +36,16 @@ Master Python's core syntax, data structures, and fundamental concepts. Learn va
 
 Master Python's control flow mechanisms for building program logic. Learn conditionals, loops, exception handling, and context managers. Control flow determines program behavior—poor control flow leads to bugs and unmaintainable code. Professional Python requires sophisticated flow control beyond basic if-else statements.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.3.1 Conditional Statements]]**|if-elif-else structure; boolean expressions; truthiness and falsiness; ternary operator; nested conditionals; short-circuit evaluation; conditional assignment. Decision making.|
-|**[[1.3.2 For Loops & Iteration]]**|for loop syntax; range() function; enumerate() for indices; iterating dictionaries; nested loops; loop else clause; break and continue; iteration patterns. Iterative control.|
-|**[[1.3.3 While Loops]]**|while loop syntax; loop conditions; infinite loops; sentinel values; do-while pattern; while-else clause; loop termination strategies. Conditional iteration.|
-|**[[1.3.4 Comprehensions]]**|List comprehensions; dictionary comprehensions; set comprehensions; nested comprehensions; conditional comprehensions; generator expressions; readability vs conciseness. Pythonic iteration.|
-|**[[1.3.5 Exception Handling]]**|try-except blocks; catching specific exceptions; multiple except clauses; except-else-finally; raising exceptions; custom exceptions; exception chaining; exception best practices. Error handling.|
-|**[[1.3.6 Context Managers]]**|with statement; context manager protocol; **enter** and **exit**; contextlib module; @contextmanager decorator; nested context managers; resource management. Automatic cleanup.|
-|**[[1.3.7 Pattern Matching]]**|match-case statements (Python 3.10+); pattern syntax; guard clauses; structural patterns; mapping patterns; class patterns; or patterns; match semantics. Modern control flow.|
-|**[[1.3.8 Control Flow Best Practices]]**|Early returns; guard clauses; avoiding nested loops; loop extraction; readable conditions; control flow complexity; cyclomatic complexity. Clean flow.|
+| Topic                                     | Focus & Purpose                                                                                                                                                                                     |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.3.1 Conditional Statements]]**      | if-elif-else structure; boolean expressions; truthiness and falsiness; ternary operator; nested conditionals; short-circuit evaluation; conditional assignment. Decision making.                    |
+| **[[1.3.2 For Loops & Iteration]]**       | for loop syntax; range() function; enumerate() for indices; iterating dictionaries; nested loops; loop else clause; break and continue; iteration patterns. Iterative control.                      |
+| **[[1.3.3 While Loops]]**                 | while loop syntax; loop conditions; infinite loops; sentinel values; do-while pattern; while-else clause; loop termination strategies. Conditional iteration.                                       |
+| **[[1.3.4 Comprehensions]]**              | List comprehensions; dictionary comprehensions; set comprehensions; nested comprehensions; conditional comprehensions; generator expressions; readability vs conciseness. Pythonic iteration.       |
+| **[[1.3.5 Exception Handling]]**          | try-except blocks; catching specific exceptions; multiple except clauses; except-else-finally; raising exceptions; custom exceptions; exception chaining; exception best practices. Error handling. |
+| **[[1.3.6 Context Managers]]**            | with statement; context manager protocol; **enter** and **exit**; contextlib module; @contextmanager decorator; nested context managers; resource management. Automatic cleanup.                    |
+| **[[1.3.7 Pattern Matching]]**            | match-case statements (Python 3.10+); pattern syntax; guard clauses; structural patterns; mapping patterns; class patterns; or patterns; match semantics. Modern control flow.                      |
+| **[[1.3.8 Control Flow Best Practices]]** | Early returns; guard clauses; avoiding nested loops; loop extraction; readable conditions; control flow complexity; cyclomatic complexity. Clean flow.                                              |
 
 ---
 
@@ -605,16 +597,16 @@ Master infrastructure automation and configuration management. Learn Terraform, 
 
 Master production monitoring and observability practices. Learn Prometheus, Grafana, and distributed tracing. Monitoring mandatory in all production roles. You can't fix what you can't see; observability prevents outages.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.36.1 Observability Fundamentals]]**|Three pillars (metrics, logs, traces); observability vs monitoring; SLIs, SLOs, SLAs; error budgets; observability-driven development. Observability concepts.|
-|**[[1.36.2 Prometheus]]**|Prometheus architecture; metric types (counter, gauge, histogram, summary); PromQL; exporters; Python client; instrumentation; scraping. Metric collection.|
-|**[[1.36.3 Grafana]]**|Grafana dashboards; panels; data sources; queries; alerts; variables; dashboard templates; visualization best practices. Data visualization.|
-|**[[1.36.4 Application Metrics]]**|Custom metrics; request rate; error rate; latency (RED method); resource utilization (USE method); business metrics; instrumentation patterns. App monitoring.|
-|**[[1.36.5 Structured Logging]]**|JSON logging; log levels; correlation IDs; context propagation; log aggregation; ELK stack (Elasticsearch, Logstash, Kibana); Loki. Centralized logging.|
-|**[[1.36.6 Distributed Tracing]]**|OpenTelemetry; trace context; spans; trace visualization; Jaeger; Zipkin; instrumenting Python apps; sampling. Request tracing.|
-|**[[1.36.7 Alerting]]**|Alert design; alert fatigue; actionable alerts; alert routing; on-call management; PagerDuty; Opsgenie; alert thresholds. Alert systems.|
-|**[[1.36.8 APM Tools]]**|Application Performance Monitoring; New Relic; Datadog; Dynatrace; error tracking with Sentry; real user monitoring; synthetic monitoring. Commercial observability.|
+| Topic                                     | Focus & Purpose                                                                                                                                                      |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.36.1 Observability Fundamentals]]** | Three pillars (metrics, logs, traces); observability vs monitoring; SLIs, SLOs, SLAs; error budgets; observability-driven development. Observability concepts.       |
+| **[[1.36.2 Prometheus]]**                 | Prometheus architecture; metric types (counter, gauge, histogram, summary); PromQL; exporters; Python client; instrumentation; scraping. Metric collection.          |
+| **[[1.36.3 Grafana]]**                    | Grafana dashboards; panels; data sources; queries; alerts; variables; dashboard templates; visualization best practices. Data visualization.                         |
+| **[[1.36.4 Application Metrics]]**        | Custom metrics; request rate; error rate; latency (RED method); resource utilization (USE method); business metrics; instrumentation patterns. App monitoring.       |
+| **[[1.36.5 Structured Logging]]**         | JSON logging; log levels; correlation IDs; context propagation; log aggregation; ELK stack (Elasticsearch, Logstash, Kibana); Loki. Centralized logging.             |
+| **[[1.36.6 Distributed Tracing]]**        | OpenTelemetry; trace context; spans; trace visualization; Jaeger; Zipkin; instrumenting Python apps; sampling. Request tracing.                                      |
+| **[[1.36.7 Alerting]]**                   | Alert design; alert fatigue; actionable alerts; alert routing; on-call management; PagerDuty; Opsgenie; alert thresholds. Alert systems.                             |
+| **[[1.36.8 APM Tools]]**                  | Application Performance Monitoring; New Relic; Datadog; Dynatrace; error tracking with Sentry; real user monitoring; synthetic monitoring. Commercial observability. |
 
 ---
 

@@ -5,4 +5,4 @@
 | **Agent Control Flow** | Stateful, multi-step agent logic         | [[LangGraph]]                                    |
 | **Observability & QA** | Tracing, evals, production monitoring    | [[Langfuse]]                                     |
 | **Model Providers**    | Reasoning engines                        | OpenAI, Anthropic, Mistral, Meta                 |
-| **Runtime / Infra**    | Execution & deployment                   | Python, FastAPI, Docker, Cloud                   |
+| **Runtime / Infra**    | Execution & deployment                   | [[Python]], [[FastAPI]], Docker, Cloud           |
