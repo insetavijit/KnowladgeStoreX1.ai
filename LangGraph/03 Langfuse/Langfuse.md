@@ -2,16 +2,16 @@
 
 Master Langfuse as the essential observability and analytics platform for LLM applications. Learn tracing, monitoring, debugging, and prompt management. Understand how Langfuse provides visibility into LangChain and LangGraph applications, enabling debugging, optimization, and production monitoring. Langfuse bridges the gap between development and production—essential for reliable LLM systems. Jobs demand observability skills; black-box AI systems are unacceptable in production.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[3.1.1 Langfuse Setup & Architecture]]**|Installation (pip install langfuse); API keys; project setup; client initialization; Langfuse Cloud vs self-hosted; architecture overview; when to use Langfuse. Foundation setup.|
-|**[[3.1.2 Core Concepts]]**|Traces; spans; observations; generations; events; scores; users; sessions; data model; hierarchy. Conceptual framework.|
-|**[[3.1.3 SDK Basics]]**|Python SDK; TypeScript SDK; basic tracing; trace creation; span creation; context management; SDK patterns. Core SDK usage.|
-|**[[3.1.4 LangChain Integration]]**|LangChain callback handler; automatic tracing; chain instrumentation; agent tracing; RAG tracing; integration setup. LangChain observability.|
-|**[[3.1.5 LangGraph Integration]]**|LangGraph tracing; StateGraph instrumentation; node-level visibility; edge tracking; state inspection; multi-agent tracing. LangGraph observability.|
-|**[[3.1.6 Web Interface Overview]]**|Dashboard navigation; trace explorer; analytics views; prompt management; datasets; settings; user interface. Platform navigation.|
-|**[[3.1.7 OpenTelemetry Integration]]**|OpenTelemetry standards; OTEL collector; trace export; span mapping; observability stack; interoperability. Standards compliance.|
-|**[[3.1.8 Langfuse vs Alternatives]]**|Langfuse vs LangSmith; vs Weights & Biases; vs custom logging; feature comparison; when Langfuse fits; trade-offs. Platform selection.|
+| Topic                                       | Focus & Purpose                                                                                                                                                                    |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[3.1.1 Langfuse Setup & Architecture]]** | Installation (pip install langfuse); API keys; project setup; client initialization; Langfuse Cloud vs self-hosted; architecture overview; when to use Langfuse. Foundation setup. |
+| **[[3.1.2 Core Concepts]]**                 | Traces; spans; observations; generations; events; scores; users; sessions; data model; hierarchy. Conceptual framework.                                                            |
+| **[[3.1.3 SDK Basics]]**                    | Python SDK; TypeScript SDK; basic tracing; trace creation; span creation; context management; SDK patterns. Core SDK usage.                                                        |
+| **[[3.1.4 LangChain Integration]]**         | LangChain callback handler; automatic tracing; chain instrumentation; agent tracing; RAG tracing; integration setup. LangChain observability.                                      |
+| **[[3.1.5 LangGraph Integration]]**         | LangGraph tracing; StateGraph instrumentation; node-level visibility; edge tracking; state inspection; multi-agent tracing. LangGraph observability.                               |
+| **[[3.1.6 Web Interface Overview]]**        | Dashboard navigation; trace explorer; analytics views; prompt management; datasets; settings; user interface. Platform navigation.                                                 |
+| **[[3.1.7 OpenTelemetry Integration]]**     | OpenTelemetry standards; OTEL collector; trace export; span mapping; observability stack; interoperability. Standards compliance.                                                  |
+| **[[3.1.8 Langfuse vs Alternatives]]**      | Langfuse vs LangSmith; vs Weights & Biases; vs custom logging; feature comparison; when Langfuse fits; trade-offs. Platform selection.                                             |
 
 ### **[[3.2 Tracing & Instrumentation]]**
 

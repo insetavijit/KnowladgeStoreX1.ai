@@ -35,7 +35,7 @@ Separating the "Orchestrator" from the "Prompting" allows you to swap models eas
 
 ## Linked Concepts
 - [[What is LangGraph]]
-- [[LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/When to Use LangGraph]]
+- [[02 LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/When to Use LangGraph]]
 - [[LangChain Dependency]]
 
 ---

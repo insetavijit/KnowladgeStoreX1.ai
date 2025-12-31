@@ -42,7 +42,7 @@ Graphs (LangGraph) are for complex, adaptive agents. Chains (LangChain) are for 
 
 ## Linked Concepts
 - [[What is LangGraph]]
-- [[LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/When to Use LangGraph]]
+- [[02 LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/When to Use LangGraph]]
 - [[Loops & Iteration]]
 
 ---
