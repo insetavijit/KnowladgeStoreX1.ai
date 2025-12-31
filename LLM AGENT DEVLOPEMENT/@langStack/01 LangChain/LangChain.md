@@ -17,76 +17,76 @@ Master LangChain as the foundational framework for building LLM applications. Le
 
 Master sophisticated chain patterns using LCEL for complex workflows. Learn parallel chains, routing, fallbacks, and retry logic. Understand RunnablePassthrough, RunnableLambda, and custom runnables. Build production-grade chains with proper error handling and composition. LCEL is the modern standard—legacy chain syntax is deprecated. This section enables building maintainable, scalable applications.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.2.1 Parallel Chains]]**|RunnableParallel; parallel execution; result merging; fan-out patterns; concurrent processing; performance optimization. Concurrent workflows.|
-|**[[2.2.2 Routing & Branching]]**|RunnableBranch; conditional routing; dynamic chain selection; route conditions; multi-path workflows; decision logic. Conditional execution.|
-|**[[2.2.3 Fallbacks & Retries]]**|RunnableWithFallbacks; retry logic; error recovery; fallback chains; timeout handling; graceful degradation. Robust chains.|
-|**[[2.2.4 Custom Runnables]]**|Creating custom Runnables; Runnable interface; invoke/batch/stream methods; type annotations; composition; reusable components. Building blocks.|
-|**[[2.2.5 Chain Composition Patterns]]**|Nested chains; modular design; chain reuse; interface design; input/output mapping; composition strategies. Maintainable chains.|
-|**[[2.2.6 Streaming & Async]]**|Stream method; async chains; astream; token streaming; event streaming; async generators; real-time output. Async operations.|
-|**[[2.2.7 Batch Processing]]**|Batch method; concurrent batching; batch optimization; throughput; parallel requests; batch error handling. Efficient processing.|
-|**[[2.2.8 Configuration & Runtime]]**|Configurable chains; runtime configuration; RunnableConfig; environment variables; dynamic configuration; chain customization. Flexible chains.|
+| Topic                                    | Focus & Purpose                                                                                                                                  |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[[2.2.1 Parallel Chains]]**            | RunnableParallel; parallel execution; result merging; fan-out patterns; concurrent processing; performance optimization. Concurrent workflows.   |
+| **[[2.2.2 Routing & Branching]]**        | RunnableBranch; conditional routing; dynamic chain selection; route conditions; multi-path workflows; decision logic. Conditional execution.     |
+| **[[2.2.3 Fallbacks & Retries]]**        | RunnableWithFallbacks; retry logic; error recovery; fallback chains; timeout handling; graceful degradation. Robust chains.                      |
+| **[[2.2.4 Custom Runnables]]**           | Creating custom Runnables; Runnable interface; invoke/batch/stream methods; type annotations; composition; reusable components. Building blocks. |
+| **[[2.2.5 Chain Composition Patterns]]** | Nested chains; modular design; chain reuse; interface design; input/output mapping; composition strategies. Maintainable chains.                 |
+| **[[2.2.6 Streaming & Async]]**          | Stream method; async chains; astream; token streaming; event streaming; async generators; real-time output. Async operations.                    |
+| **[[2.2.7 Batch Processing]]**           | Batch method; concurrent batching; batch optimization; throughput; parallel requests; batch error handling. Efficient processing.                |
+| **[[2.2.8 Configuration & Runtime]]**    | Configurable chains; runtime configuration; RunnableConfig; environment variables; dynamic configuration; chain customization. Flexible chains.  |
 
 ### **[[2.3 Retrieval-Augmented Generation (RAG)]]**
 
 Master RAG as the essential pattern for building knowledge-grounded LLM applications. Learn document loading, text splitting, embeddings, vector stores, and retrieval strategies. Understand semantic search, hybrid search, and re-ranking. RAG enables LLMs to access external knowledge—critical for accurate, up-to-date, and verifiable AI applications. This is the most important real-world pattern.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.3.1 Document Loaders]]**|Loading PDFs, CSVs, HTML, APIs; TextLoader, PyPDFLoader, UnstructuredLoader; web scraping; data ingestion; source connectors. Data acquisition.|
-|**[[2.3.2 Text Splitting]]**|RecursiveCharacterTextSplitter; chunk size/overlap; semantic splitting; context preservation; splitting strategies; optimal chunking. Document preprocessing.|
-|**[[2.3.3 Embeddings]]**|Embedding models; OpenAIEmbeddings, HuggingFaceEmbeddings; vector representations; embedding dimensions; cost-performance trade-offs. Vector encoding.|
-|**[[2.3.4 Vector Stores]]**|Chroma, Pinecone, FAISS, Weaviate; similarity search; CRUD operations; metadata filtering; vector store selection; indexing. Knowledge storage.|
-|**[[2.3.5 Retrievers]]**|VectorStoreRetriever; similarity search; MMR (Maximum Marginal Relevance); search kwargs; retrieval strategies; custom retrievers. Document retrieval.|
-|**[[2.3.6 RAG Chains]]**|RetrievalQA; ConversationalRetrievalChain; RAG with LCEL; context injection; source citation; RAG patterns. Knowledge-grounded generation.|
-|**[[2.3.7 Advanced Retrieval]]**|Hybrid search; re-ranking; parent document retrieval; self-query; compression; contextual compression. Enhanced retrieval.|
-|**[[2.3.8 RAG Evaluation]]**|Retrieval metrics; faithfulness; answer relevance; context precision; RAGAs framework; evaluation datasets. Quality measurement.|
+| Topic                            | Focus & Purpose                                                                                                                                               |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.3.1 Document Loaders]]**   | Loading PDFs, CSVs, HTML, APIs; TextLoader, PyPDFLoader, UnstructuredLoader; web scraping; data ingestion; source connectors. Data acquisition.               |
+| **[[2.3.2 Text Splitting]]**     | RecursiveCharacterTextSplitter; chunk size/overlap; semantic splitting; context preservation; splitting strategies; optimal chunking. Document preprocessing. |
+| **[[2.3.3 Embeddings]]**         | Embedding models; OpenAIEmbeddings, HuggingFaceEmbeddings; vector representations; embedding dimensions; cost-performance trade-offs. Vector encoding.        |
+| **[[2.3.4 Vector Stores]]**      | Chroma, Pinecone, FAISS, Weaviate; similarity search; CRUD operations; metadata filtering; vector store selection; indexing. Knowledge storage.               |
+| **[[2.3.5 Retrievers]]**         | VectorStoreRetriever; similarity search; MMR (Maximum Marginal Relevance); search kwargs; retrieval strategies; custom retrievers. Document retrieval.        |
+| **[[2.3.6 RAG Chains]]**         | RetrievalQA; ConversationalRetrievalChain; RAG with LCEL; context injection; source citation; RAG patterns. Knowledge-grounded generation.                    |
+| **[[2.3.7 Advanced Retrieval]]** | Hybrid search; re-ranking; parent document retrieval; self-query; compression; contextual compression. Enhanced retrieval.                                    |
+| **[[2.3.8 RAG Evaluation]]**     | Retrieval metrics; faithfulness; answer relevance; context precision; RAGAs framework; evaluation datasets. Quality measurement.                              |
 
-### **2.4 Agents & Tools**
+### **[[2.4 Agents & Tools]]**
 
 Master LangChain agents—autonomous systems that use tools and reasoning to accomplish tasks. Learn agent types, tool creation, ReAct, and agent executors. Understand tool selection, error handling, and agent patterns. While LangGraph offers more control, LangChain agents provide rapid prototyping and simpler use cases. Understanding both enables choosing the right tool for each job.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.4.1 Agent Types]]**|Zero-shot ReAct; Conversational; OpenAI Functions; Structured Chat; agent selection; when to use agents vs chains. Agent architectures.|
-|**[[2.4.2 Tool Creation]]**|@tool decorator; Tool class; tool schemas; StructuredTool; tool descriptions; input validation; tool naming. Building tools.|
-|**[[2.4.3 Agent Executors]]**|AgentExecutor; max iterations; early stopping; timeout; error handling; verbose mode; agent execution. Running agents.|
-|**[[2.4.4 Built-in Tools]]**|Search tools; calculators; Python REPL; file system; SQL database; API tools; tool ecosystems. Ready-made tools.|
-|**[[2.4.5 Custom Tool Development]]**|API wrappers; database queries; custom functions; async tools; tool dependencies; complex tools. Specialized tools.|
-|**[[2.4.6 Tool Error Handling]]**|Try-except in tools; validation; error messages; fallback tools; retry strategies; graceful failures. Robust tools.|
-|**[[2.4.7 Multi-Tool Agents]]**|Tool selection; parallel tools; tool combinations; tool dependencies; orchestration; tool chaining. Coordinating tools.|
-|**[[2.4.8 Agent Patterns & Limitations]]**|ReAct loop; agent loops; infinite loop prevention; hallucinated tools; when agents fail; agent vs LangGraph. Understanding trade-offs.|
+| Topic                                      | Focus & Purpose                                                                                                                         |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.4.1 Agent Types]]**                  | Zero-shot ReAct; Conversational; OpenAI Functions; Structured Chat; agent selection; when to use agents vs chains. Agent architectures. |
+| **[[2.4.2 Tool Creation]]**                | @tool decorator; Tool class; tool schemas; StructuredTool; tool descriptions; input validation; tool naming. Building tools.            |
+| **[[2.4.3 Agent Executors]]**              | AgentExecutor; max iterations; early stopping; timeout; error handling; verbose mode; agent execution. Running agents.                  |
+| **[[2.4.4 Built-in Tools]]**               | Search tools; calculators; Python REPL; file system; SQL database; API tools; tool ecosystems. Ready-made tools.                        |
+| **[[2.4.5 Custom Tool Development]]**      | API wrappers; database queries; custom functions; async tools; tool dependencies; complex tools. Specialized tools.                     |
+| **[[2.4.6 Tool Error Handling]]**          | Try-except in tools; validation; error messages; fallback tools; retry strategies; graceful failures. Robust tools.                     |
+| **[[2.4.7 Multi-Tool Agents]]**            | Tool selection; parallel tools; tool combinations; tool dependencies; orchestration; tool chaining. Coordinating tools.                 |
+| **[[2.4.8 Agent Patterns & Limitations]]** | ReAct loop; agent loops; infinite loop prevention; hallucinated tools; when agents fail; agent vs LangGraph. Understanding trade-offs.  |
 
-### **2.5 Memory Systems**
+### **[[2.5 Memory Systems]]**
 
 Build stateful applications with sophisticated memory management. Learn conversation memory, entity memory, knowledge graphs, and long-term storage. Understand memory types, retrieval strategies, and context window management. Memory enables personalization, context awareness, and multi-turn interactions—essential for production chatbots and assistants. Proper memory design prevents context loss and improves user experience.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.5.1 Conversation Memory Types]]**|ConversationBufferMemory; ConversationBufferWindowMemory; ConversationSummaryMemory; ConversationSummaryBufferMemory; selecting memory type. Memory strategies.|
-|**[[2.5.2 Entity Memory]]**|ConversationEntityMemory; entity extraction; entity tracking; relationship memory; knowledge accumulation. Tracking entities.|
-|**[[2.5.3 Vector Store Memory]]**|VectorStoreRetrieverMemory; semantic memory; embedding-based retrieval; long-term memory; memory search. Searchable memory.|
-|**[[2.5.4 Knowledge Graphs]]**|ConversationKGMemory; knowledge graph construction; entity-relationship extraction; graph-based memory; knowledge representation. Structured knowledge.|
-|**[[2.5.5 Chat Message History]]**|Chat message stores; persistent storage; database backends; Redis, PostgreSQL; message retrieval; history management. Durable conversations.|
-|**[[2.5.6 Memory in Chains & Agents]]**|Adding memory to chains; memory in agents; memory keys; context injection; memory persistence; conversation continuity. Stateful applications.|
-|**[[2.5.7 Custom Memory]]**|Custom memory classes; memory interface; save_context; load_memory_variables; memory backends; specialized memory. Advanced memory.|
-|**[[2.5.8 Context Window Management]]**|Token counting; message trimming; summarization; context compression; cost optimization; preventing context overflow. Managing context limits.|
+| Topic                                   | Focus & Purpose                                                                                                                                                 |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.5.1 Conversation Memory Types]]** | ConversationBufferMemory; ConversationBufferWindowMemory; ConversationSummaryMemory; ConversationSummaryBufferMemory; selecting memory type. Memory strategies. |
+| **[[2.5.2 Entity Memory]]**             | ConversationEntityMemory; entity extraction; entity tracking; relationship memory; knowledge accumulation. Tracking entities.                                   |
+| **[[2.5.3 Vector Store Memory]]**       | VectorStoreRetrieverMemory; semantic memory; embedding-based retrieval; long-term memory; memory search. Searchable memory.                                     |
+| **[[2.5.4 Knowledge Graphs]]**          | ConversationKGMemory; knowledge graph construction; entity-relationship extraction; graph-based memory; knowledge representation. Structured knowledge.         |
+| **[[2.5.5 Chat Message History]]**      | Chat message stores; persistent storage; database backends; Redis, PostgreSQL; message retrieval; history management. Durable conversations.                    |
+| **[[2.5.6 Memory in Chains & Agents]]** | Adding memory to chains; memory in agents; memory keys; context injection; memory persistence; conversation continuity. Stateful applications.                  |
+| **[[2.5.7 Custom Memory]]**             | Custom memory classes; memory interface; save_context; load_memory_variables; memory backends; specialized memory. Advanced memory.                             |
+| **[[2.5.8 Context Window Management]]** | Token counting; message trimming; summarization; context compression; cost optimization; preventing context overflow. Managing context limits.                  |
 
-### **2.6 Document Processing & Analysis**
+### **[[2.6 Document Processing & Analysis]]**
 
 Master advanced document processing for enterprise applications. Learn document loaders, transformers, analyzers, and question-answering systems. Understand OCR integration, table extraction, and multi-modal documents. Build document analysis pipelines, summarization systems, and information extraction. Document processing is critical for legal, financial, and enterprise AI applications.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.6.1 Advanced Document Loaders]]**|PDF processing; Word documents; HTML; markdown; Notion; Google Drive; SharePoint; enterprise connectors. Source diversity.|
-|**[[2.6.2 Document Transformers]]**|Text cleaning; normalization; metadata extraction; document augmentation; preprocessing pipelines. Document preparation.|
-|**[[2.6.3 Multi-Document QA]]**|Answering from multiple sources; source attribution; conflicting information; synthesis; multi-document RAG. Cross-document analysis.|
-|**[[2.6.4 Document Summarization]]**|Extractive summarization; abstractive summarization; map-reduce summarization; refine chains; summary chains. Content condensation.|
-|**[[2.6.5 Information Extraction]]**|Named entity recognition; relationship extraction; fact extraction; structured extraction; extraction chains. Mining documents.|
-|**[[2.6.6 Document Classification]]**|Classification chains; category prediction; tagging; routing; sentiment analysis; intent classification. Document organization.|
-|**[[2.6.7 Table & Figure Extraction]]**|Table parsing; Unstructured integration; image extraction; caption processing; multi-modal documents. Structured data.|
-|**[[2.6.8 Document Comparison]]**|Diff analysis; version comparison; change detection; similarity scoring; duplicate detection. Document analysis.|
+| Topic                                   | Focus & Purpose                                                                                                                       |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.6.1 Advanced Document Loaders]]** | PDF processing; Word documents; HTML; markdown; Notion; Google Drive; SharePoint; enterprise connectors. Source diversity.            |
+| **[[2.6.2 Document Transformers]]**     | Text cleaning; normalization; metadata extraction; document augmentation; preprocessing pipelines. Document preparation.              |
+| **[[2.6.3 Multi-Document QA]]**         | Answering from multiple sources; source attribution; conflicting information; synthesis; multi-document RAG. Cross-document analysis. |
+| **[[2.6.4 Document Summarization]]**    | Extractive summarization; abstractive summarization; map-reduce summarization; refine chains; summary chains. Content condensation.   |
+| **[[2.6.5 Information Extraction]]**    | Named entity recognition; relationship extraction; fact extraction; structured extraction; extraction chains. Mining documents.       |
+| **[[2.6.6 Document Classification]]**   | Classification chains; category prediction; tagging; routing; sentiment analysis; intent classification. Document organization.       |
+| **[[2.6.7 Table & Figure Extraction]]** | Table parsing; Unstructured integration; image extraction; caption processing; multi-modal documents. Structured data.                |
+| **[[2.6.8 Document Comparison]]**       | Diff analysis; version comparison; change detection; similarity scoring; duplicate detection. Document analysis.                      |
 
 ### **2.7 Data Connection & Integration**
 
