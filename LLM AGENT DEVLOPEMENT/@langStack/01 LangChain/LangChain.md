@@ -1,17 +1,17 @@
-### **2.1 LangChain Fundamentals**
+### **[[2.1 LangChain Fundamentals]]**
 
 Master LangChain as the foundational framework for building LLM applications. Learn core components, chains, prompts, and the LCEL (LangChain Expression Language). Understand the modular architecture that enables rapid prototyping and production applications. LangChain provides the building blocks that LangGraph orchestrates—mastering both is essential for modern AI engineering. Jobs demand LangChain expertise as industry standard.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.1.1 LangChain Setup & Architecture]]**|Installation (pip install langchain); core packages (langchain-core, langchain-community); project structure; modular design; component ecosystem; when to use LangChain. Foundation setup.|
-|**[[2.1.2 LLM Integration]]**|LLM wrappers; ChatModels vs LLMs; model providers (OpenAI, Anthropic, local models); API configuration; model parameters; streaming; token counting. Core LLM interface.|
-|**[[2.1.3 Prompts & Prompt Templates]]**|PromptTemplate; ChatPromptTemplate; SystemMessage, HumanMessage, AIMessage; few-shot examples; prompt composition; partial variables; output parsers. Prompt engineering.|
-|**[[2.1.4 Chains Basics]]**|Sequential chains; LLMChain; SimpleSequentialChain; TransformChain; chain composition; input/output keys; chain invocation. Basic orchestration.|
-|**[[2.1.5 LCEL (LangChain Expression Language)]]**|Pipe operator; Runnable interface; RunnablePassthrough; RunnableLambda; RunnableBranch; chain composition; LCEL vs legacy chains. Modern syntax.|
-|**[[2.1.6 Output Parsers]]**|StrOutputParser; JsonOutputParser; PydanticOutputParser; structured output; parsing strategies; error handling; custom parsers. Formatting output.|
-|**[[2.1.7 Memory Basics]]**|ConversationBufferMemory; ConversationSummaryMemory; memory types; conversation context; memory in chains; history management. Conversation state.|
-|**[[2.1.8 Debugging & Callbacks]]**|Callbacks system; logging; tracing; verbose mode; debugging chains; LangSmith integration; performance monitoring. Development tools.|
+| Topic                                              | Focus & Purpose                                                                                                                                                                             |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.1.1 LangChain Setup & Architecture]]**       | Installation (pip install langchain); core packages (langchain-core, langchain-community); project structure; modular design; component ecosystem; when to use LangChain. Foundation setup. |
+| **[[2.1.2 LLM Integration]]**                      | LLM wrappers; ChatModels vs LLMs; model providers (OpenAI, Anthropic, local models); API configuration; model parameters; streaming; token counting. Core LLM interface.                    |
+| **[[2.1.3 Prompts & Prompt Templates]]**           | PromptTemplate; ChatPromptTemplate; SystemMessage, HumanMessage, AIMessage; few-shot examples; prompt composition; partial variables; output parsers. Prompt engineering.                   |
+| **[[2.1.4 Chains Basics]]**                        | Sequential chains; LLMChain; SimpleSequentialChain; TransformChain; chain composition; input/output keys; chain invocation. Basic orchestration.                                            |
+| **[[2.1.5 LCEL (LangChain Expression Language)]]** | Pipe operator; Runnable interface; RunnablePassthrough; RunnableLambda; RunnableBranch; chain composition; LCEL vs legacy chains. Modern syntax.                                            |
+| **[[2.1.6 Output Parsers]]**                       | StrOutputParser; JsonOutputParser; PydanticOutputParser; structured output; parsing strategies; error handling; custom parsers. Formatting output.                                          |
+| **[[2.1.7 Memory Basics]]**                        | ConversationBufferMemory; ConversationSummaryMemory; memory types; conversation context; memory in chains; history management. Conversation state.                                          |
+| **[[2.1.8 Debugging & Callbacks]]**                | Callbacks system; logging; tracing; verbose mode; debugging chains; LangSmith integration; performance monitoring. Development tools.                                                       |
 
 ### **[[2.2 Advanced Chains & LCEL]]**
 

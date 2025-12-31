@@ -15,7 +15,7 @@ Master modern Python development environment setup and tooling. Learn version ma
 
 ---
 
-## **1.2 Python Core Language Fundamentals**
+## **[[1.2 Python Core Language Fundamentals]]**
 
 Master Python's core syntax, data structures, and fundamental concepts. Learn variables, types, operators, and control flow that form the foundation of all Python programs. Every Python job requires absolute fluency in these basics—weak fundamentals lead to inefficient code and debugging difficulties. These concepts appear in every technical interview.
 
@@ -32,7 +32,7 @@ Master Python's core syntax, data structures, and fundamental concepts. Learn va
 
 ---
 
-## **1.3 Control Flow & Program Logic**
+## **[[1.3 Control Flow & Program Logic]]**
 
 Master Python's control flow mechanisms for building program logic. Learn conditionals, loops, exception handling, and context managers. Control flow determines program behavior—poor control flow leads to bugs and unmaintainable code. Professional Python requires sophisticated flow control beyond basic if-else statements.
 
@@ -49,122 +49,122 @@ Master Python's control flow mechanisms for building program logic. Learn condit
 
 ---
 
-## **1.4 Functions & Functional Programming**
+## **[[1.4 Functions & Functional Programming]]**
 
 Master function definition, parameters, and functional programming concepts. Learn decorators, generators, and higher-order functions. Functions are the primary unit of code reuse—well-designed functions determine code maintainability. Modern Python emphasizes functional patterns over purely procedural code.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.4.1 Function Basics]]**|Function definition (def); parameters and arguments; return values; multiple returns; docstrings (Google/NumPy/Sphinx formats); function naming; single responsibility principle. Function fundamentals.|
-|**[[1.4.2 Function Parameters]]**|Positional arguments; keyword arguments; default values; *args for variable args; **kwargs for variable keywords; keyword-only parameters; positional-only parameters (Python 3.8+). Parameter patterns.|
-|**[[1.4.3 Lambda Functions]]**|Lambda syntax; lambda limitations; lambda use cases; lambda vs def; lambda in sorting; lambda with map/filter; lambda readability concerns. Anonymous functions.|
-|**[[1.4.4 Higher-Order Functions]]**|Functions as first-class objects; map() function; filter() function; reduce() function; functions returning functions; callback patterns; function composition. Functional patterns.|
-|**[[1.4.5 Decorators]]**|Decorator syntax (@); function decorators; decorator with arguments; functools.wraps; decorator patterns; class decorators; stacking decorators; built-in decorators (@property, @staticmethod, @classmethod). Function wrappers.|
-|**[[1.4.6 Closures & Scope]]**|LEGB rule (Local, Enclosing, Global, Built-in); nonlocal keyword; global keyword; closure creation; closure use cases; scope best practices. Variable scope.|
-|**[[1.4.7 Generators & Yield]]**|Generator functions; yield statement; generator expressions; generator methods; generator pipelines; memory efficiency; lazy evaluation; itertools module. Lazy sequences.|
-|**[[1.4.8 Iterators & Iteration Protocol]]**|Iterator protocol (**iter**, **next**); creating iterators; StopIteration exception; itertools functions (chain, cycle, repeat, combinations, permutations); infinite iterators. Custom iteration.|
+| Topic                                        | Focus & Purpose                                                                                                                                                                                                                   |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.4.1 Function Basics]]**                | Function definition (def); parameters and arguments; return values; multiple returns; docstrings (Google/NumPy/Sphinx formats); function naming; single responsibility principle. Function fundamentals.                          |
+| **[[1.4.2 Function Parameters]]**            | Positional arguments; keyword arguments; default values; *args for variable args; **kwargs for variable keywords; keyword-only parameters; positional-only parameters (Python 3.8+). Parameter patterns.                          |
+| **[[1.4.3 Lambda Functions]]**               | Lambda syntax; lambda limitations; lambda use cases; lambda vs def; lambda in sorting; lambda with map/filter; lambda readability concerns. Anonymous functions.                                                                  |
+| **[[1.4.4 Higher-Order Functions]]**         | Functions as first-class objects; map() function; filter() function; reduce() function; functions returning functions; callback patterns; function composition. Functional patterns.                                              |
+| **[[1.4.5 Decorators]]**                     | Decorator syntax (@); function decorators; decorator with arguments; functools.wraps; decorator patterns; class decorators; stacking decorators; built-in decorators (@property, @staticmethod, @classmethod). Function wrappers. |
+| **[[1.4.6 Closures & Scope]]**               | LEGB rule (Local, Enclosing, Global, Built-in); nonlocal keyword; global keyword; closure creation; closure use cases; scope best practices. Variable scope.                                                                      |
+| **[[1.4.7 Generators & Yield]]**             | Generator functions; yield statement; generator expressions; generator methods; generator pipelines; memory efficiency; lazy evaluation; itertools module. Lazy sequences.                                                        |
+| **[[1.4.8 Iterators & Iteration Protocol]]** | Iterator protocol (**iter**, **next**); creating iterators; StopIteration exception; itertools functions (chain, cycle, repeat, combinations, permutations); infinite iterators. Custom iteration.                                |
 
 ---
 
-## **1.5 Object-Oriented Programming (OOP)**
+## **[[1.5 Object-Oriented Programming (OOP)]]**
 
 Master object-oriented programming principles and Python's class system. Learn classes, inheritance, polymorphism, and special methods. OOP is essential for backend development and large-scale applications—procedural code doesn't scale. Professional Python requires understanding when and how to use OOP effectively.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.5.1 Classes & Objects]]**|Class definition; **init** constructor; self parameter; instance attributes; creating objects; object identity; isinstance() and type(); class vs instance. OOP basics.|
-|**[[1.5.2 Instance, Class & Static Methods]]**|Instance methods; @classmethod decorator; cls parameter; @staticmethod decorator; when to use each method type; factory patterns with classmethods. Method types.|
-|**[[1.5.3 Attributes & Properties]]**|Public attributes; name mangling (_single, __double underscore); @property decorator; property setter and deleter; computed properties; attribute access control. Encapsulation.|
-|**[[1.5.4 Inheritance]]**|Single inheritance; super() function; method overriding; multiple inheritance; Method Resolution Order (MRO); mixin classes; inheritance vs composition; Liskov Substitution Principle. Code reuse.|
-|**[[1.5.5 Special Methods (Dunder)]]**|**str** and **repr**; **len**; **getitem** and **setitem**; **call**; **enter** and **exit**; **eq**, **lt**, **hash**; operator overloading; Python data model. Magic methods.|
-|**[[1.5.6 Abstract Classes & Interfaces]]**|ABC (Abstract Base Class); @abstractmethod decorator; abstract properties; interface design; duck typing vs explicit interfaces; Protocol classes (PEP 544). Abstraction.|
-|**[[1.5.7 Dataclasses]]**|@dataclass decorator; field definitions; default values; post_init processing; frozen dataclasses; field metadata; dataclass comparison; slots with dataclasses. Modern data holders.|
-|**[[1.5.8 OOP Design Patterns]]**|Singleton pattern; Factory pattern; Builder pattern; Observer pattern; Strategy pattern; SOLID principles application; composition over inheritance. Design principles.|
+| Topic                                          | Focus & Purpose                                                                                                                                                                                     |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.5.1 Classes & Objects]]**                | Class definition; **init** constructor; self parameter; instance attributes; creating objects; object identity; isinstance() and type(); class vs instance. OOP basics.                             |
+| **[[1.5.2 Instance, Class & Static Methods]]** | Instance methods; @classmethod decorator; cls parameter; @staticmethod decorator; when to use each method type; factory patterns with classmethods. Method types.                                   |
+| **[[1.5.3 Attributes & Properties]]**          | Public attributes; name mangling (_single, __double underscore); @property decorator; property setter and deleter; computed properties; attribute access control. Encapsulation.                    |
+| **[[1.5.4 Inheritance]]**                      | Single inheritance; super() function; method overriding; multiple inheritance; Method Resolution Order (MRO); mixin classes; inheritance vs composition; Liskov Substitution Principle. Code reuse. |
+| **[[1.5.5 Special Methods (Dunder)]]**         | **str** and **repr**; **len**; **getitem** and **setitem**; **call**; **enter** and **exit**; **eq**, **lt**, **hash**; operator overloading; Python data model. Magic methods.                     |
+| **[[1.5.6 Abstract Classes & Interfaces]]**    | ABC (Abstract Base Class); @abstractmethod decorator; abstract properties; interface design; duck typing vs explicit interfaces; Protocol classes (PEP 544). Abstraction.                           |
+| **[[1.5.7 Dataclasses]]**                      | @dataclass decorator; field definitions; default values; post_init processing; frozen dataclasses; field metadata; dataclass comparison; slots with dataclasses. Modern data holders.               |
+| **[[1.5.8 OOP Design Patterns]]**              | Singleton pattern; Factory pattern; Builder pattern; Observer pattern; Strategy pattern; SOLID principles application; composition over inheritance. Design principles.                             |
 
 ---
 
-## **1.6 File I/O & Data Serialization**
+## **[[1.6 File I-O & Data Serialization]]**
 
 Master file handling and data serialization for persistence and data exchange. Learn reading/writing files, working with various formats, and path management. File I/O appears in every Python role—data must be loaded, processed, and saved. Modern applications work with multiple formats; plain text is insufficient.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.6.1 File Reading & Writing]]**|open() function; file modes (r, w, a, x, b); reading methods (read, readline, readlines); writing methods; file objects; with statement; encoding specification; buffering. Basic file operations.|
-|**[[1.6.2 Path Management]]**|pathlib module (Path object); os.path vs pathlib; path joining; path existence; directory creation; path traversal; cross-platform paths; working directory. Modern path handling.|
-|**[[1.6.3 CSV Files]]**|csv module; DictReader and DictWriter; custom delimiters; quoting; header handling; pandas CSV functions; CSV streaming; large CSV handling. Tabular data.|
-|**[[1.6.4 JSON Data]]**|json module; json.dumps() and json.loads(); JSON files; custom JSON encoders; handling datetime; pretty printing JSON; JSON streaming; JSONLines format. Structured data exchange.|
-|**[[1.6.5 XML & HTML Parsing]]**|ElementTree for XML; XML parsing and writing; XPath basics; BeautifulSoup for HTML; lxml library; parsing strategies; malformed markup. Markup languages.|
-|**[[1.6.6 YAML & TOML]]**|PyYAML library; safe_load vs load; YAML serialization; TOML format; tomli/tomllib; configuration files; YAML security; format comparison. Configuration formats.|
-|**[[1.6.7 Binary Files & Serialization]]**|pickle module; pickle security concerns; binary file modes; struct module; MessagePack; Protocol Buffers basics; binary vs text. Object persistence.|
-|**[[1.6.8 File System Operations]]**|os module functions; shutil for file operations; copying and moving files; directory traversal; glob patterns; temporary files; file permissions; file watching. File management.|
+| Topic                                      | Focus & Purpose                                                                                                                                                                                    |
+| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.6.1 File Reading & Writing]]**       | open() function; file modes (r, w, a, x, b); reading methods (read, readline, readlines); writing methods; file objects; with statement; encoding specification; buffering. Basic file operations. |
+| **[[1.6.2 Path Management]]**              | pathlib module (Path object); os.path vs pathlib; path joining; path existence; directory creation; path traversal; cross-platform paths; working directory. Modern path handling.                 |
+| **[[1.6.3 CSV Files]]**                    | csv module; DictReader and DictWriter; custom delimiters; quoting; header handling; pandas CSV functions; CSV streaming; large CSV handling. Tabular data.                                         |
+| **[[1.6.4 JSON Data]]**                    | json module; json.dumps() and json.loads(); JSON files; custom JSON encoders; handling datetime; pretty printing JSON; JSON streaming; JSONLines format. Structured data exchange.                 |
+| **[[1.6.5 XML & HTML Parsing]]**           | ElementTree for XML; XML parsing and writing; XPath basics; BeautifulSoup for HTML; lxml library; parsing strategies; malformed markup. Markup languages.                                          |
+| **[[1.6.6 YAML & TOML]]**                  | PyYAML library; safe_load vs load; YAML serialization; TOML format; tomli/tomllib; configuration files; YAML security; format comparison. Configuration formats.                                   |
+| **[[1.6.7 Binary Files & Serialization]]** | pickle module; pickle security concerns; binary file modes; struct module; MessagePack; Protocol Buffers basics; binary vs text. Object persistence.                                               |
+| **[[1.6.8 File System Operations]]**       | os module functions; shutil for file operations; copying and moving files; directory traversal; glob patterns; temporary files; file permissions; file watching. File management.                  |
 
 ---
 
-## **1.7 Working with APIs & HTTP**
+## **[[1.7 Working with APIs & HTTP]]**
 
 Master API consumption and HTTP interactions. Learn requests library, authentication, error handling, and async requests. API integration is critical for 80%+ of Python jobs—modern applications are interconnected. Robust API handling separates professional from amateur code.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.7.1 HTTP Fundamentals]]**|HTTP methods (GET, POST, PUT, DELETE, PATCH); status codes; headers; query parameters; request body; content types; REST principles. Protocol basics.|
-|**[[1.7.2 Requests Library]]**|GET requests; POST requests with data; request parameters; request headers; timeout handling; requests.Session; connection pooling; SSL verification. Sync HTTP client.|
-|**[[1.7.3 API Authentication]]**|API keys in headers; Bearer tokens; Basic authentication; OAuth 2.0 flow; JWT tokens; token refresh; credential management; environment variables for secrets. Secure access.|
-|**[[1.7.4 Response Handling]]**|JSON response parsing; response.json(); response status checking; error responses; response headers; content decoding; binary responses. Processing responses.|
-|**[[1.7.5 Error Handling & Retries]]**|HTTPError exceptions; ConnectionError handling; timeout errors; status code checking; retry logic with exponential backoff; requests_retry_adapter; circuit breaker pattern. Resilience.|
-|**[[1.7.6 Async HTTP Requests]]**|httpx library; async/await with httpx; AsyncClient; parallel requests; aiohttp alternative; async context managers; streaming responses. Concurrent requests.|
-|**[[1.7.7 Rate Limiting & Pagination]]**|Rate limit detection; rate limit headers; pagination patterns (offset, cursor, page-based); link headers; implementing backoff; batch requests. API limits.|
-|**[[1.7.8 API Testing & Mocking]]**|requests-mock library; responses library; VCR.py for recording; mock API responses; testing error conditions; fixture data. Testing API integration.|
+| Topic                                    | Focus & Purpose                                                                                                                                                                          |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.7.1 HTTP Fundamentals]]**          | HTTP methods (GET, POST, PUT, DELETE, PATCH); status codes; headers; query parameters; request body; content types; REST principles. Protocol basics.                                    |
+| **[[1.7.2 Requests Library]]**           | GET requests; POST requests with data; request parameters; request headers; timeout handling; requests.Session; connection pooling; SSL verification. Sync HTTP client.                  |
+| **[[1.7.3 API Authentication]]**         | API keys in headers; Bearer tokens; Basic authentication; OAuth 2.0 flow; JWT tokens; token refresh; credential management; environment variables for secrets. Secure access.            |
+| **[[1.7.4 Response Handling]]**          | JSON response parsing; response.json(); response status checking; error responses; response headers; content decoding; binary responses. Processing responses.                           |
+| **[[1.7.5 Error Handling & Retries]]**   | HTTPError exceptions; ConnectionError handling; timeout errors; status code checking; retry logic with exponential backoff; requests_retry_adapter; circuit breaker pattern. Resilience. |
+| **[[1.7.6 Async HTTP Requests]]**        | httpx library; async/await with httpx; AsyncClient; parallel requests; aiohttp alternative; async context managers; streaming responses. Concurrent requests.                            |
+| **[[1.7.7 Rate Limiting & Pagination]]** | Rate limit detection; rate limit headers; pagination patterns (offset, cursor, page-based); link headers; implementing backoff; batch requests. API limits.                              |
+| **[[1.7.8 API Testing & Mocking]]**      | requests-mock library; responses library; VCR.py for recording; mock API responses; testing error conditions; fixture data. Testing API integration.                                     |
 
 ---
 
-## **1.8 Regular Expressions & Text Processing**
+## **[[1.8 Regular Expressions & Text Processing]]**
 
 Master regular expressions for text pattern matching and processing. Learn regex syntax, common patterns, and performance optimization. Text processing appears in data cleaning, validation, and parsing—regex is the standard tool. Professional data work requires regex competency for dirty data handling.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.8.1 Regex Basics]]**|Regex syntax; literal characters; metacharacters; character classes; quantifiers; anchors (^, $); re module functions (search, match, findall); raw strings. Pattern matching.|
-|**[[1.8.2 Regex Patterns]]**|Email validation; URL matching; phone number patterns; date formats; IP addresses; common pattern library; pattern testing tools. Practical patterns.|
-|**[[1.8.3 Regex Groups & Capturing]]**|Capturing groups; non-capturing groups; named groups; backreferences; group extraction; finditer() for multiple matches. Pattern extraction.|
-|**[[1.8.4 Regex Substitution]]**|re.sub() function; replacement patterns; substitution with functions; global vs single replacement; case-insensitive replacement. Text transformation.|
-|**[[1.8.5 Advanced Regex]]**|Lookahead and lookbehind; atomic groups; regex flags (IGNORECASE, MULTILINE, DOTALL); greedy vs lazy quantifiers; regex performance. Complex patterns.|
-|**[[1.8.6 Text Cleaning]]**|Whitespace normalization; removing special characters; case normalization; unicode normalization; stemming and lemmatization basics. Data cleaning.|
-|**[[1.8.7 String Parsing]]**|split() with regex; extracting structured data; parsing log files; parsing configuration; alternative to regex (str methods). Structured extraction.|
-|**[[1.8.8 Regex Alternatives]]**|When to avoid regex; str methods (startswith, endswith, find); parsing libraries; when regex is overkill; readability vs power. Tool selection.|
+| Topic                                  | Focus & Purpose                                                                                                                                                                |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[[1.8.1 Regex Basics]]**             | Regex syntax; literal characters; metacharacters; character classes; quantifiers; anchors (^, $); re module functions (search, match, findall); raw strings. Pattern matching. |
+| **[[1.8.2 Regex Patterns]]**           | Email validation; URL matching; phone number patterns; date formats; IP addresses; common pattern library; pattern testing tools. Practical patterns.                          |
+| **[[1.8.3 Regex Groups & Capturing]]** | Capturing groups; non-capturing groups; named groups; backreferences; group extraction; finditer() for multiple matches. Pattern extraction.                                   |
+| **[[1.8.4 Regex Substitution]]**       | re.sub() function; replacement patterns; substitution with functions; global vs single replacement; case-insensitive replacement. Text transformation.                         |
+| **[[1.8.5 Advanced Regex]]**           | Lookahead and lookbehind; atomic groups; regex flags (IGNORECASE, MULTILINE, DOTALL); greedy vs lazy quantifiers; regex performance. Complex patterns.                         |
+| **[[1.8.6 Text Cleaning]]**            | Whitespace normalization; removing special characters; case normalization; unicode normalization; stemming and lemmatization basics. Data cleaning.                            |
+| **[[1.8.7 String Parsing]]**           | split() with regex; extracting structured data; parsing log files; parsing configuration; alternative to regex (str methods). Structured extraction.                           |
+| **[[1.8.8 Regex Alternatives]]**       | When to avoid regex; str methods (startswith, endswith, find); parsing libraries; when regex is overkill; readability vs power. Tool selection.                                |
 
 ---
 
-## **1.9 Testing & Quality Assurance**
+## **[[1.9 Testing & Quality Assurance]]**
 
 Master software testing principles and Python testing frameworks. Learn unit testing, integration testing, and test-driven development. Testing is mandatory in professional Python—untested code doesn't ship. All backend, data engineering, and ML engineering roles require testing expertise.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.9.1 Testing Fundamentals]]**|Testing pyramid; unit vs integration vs end-to-end; test coverage concepts; TDD (Test-Driven Development); BDD (Behavior-Driven Development); testing principles. Testing philosophy.|
-|**[[1.9.2 Unittest Framework]]**|TestCase classes; test methods; setUp and tearDown; assertions; test discovery; test suites; running tests; skip decorators. Standard library testing.|
-|**[[1.9.3 Pytest Framework]]**|Pytest basics; test functions; fixtures; parametrized tests; markers; plugins; conftest.py; pytest vs unittest; assert introspection. Modern testing.|
-|**[[1.9.4 Test Fixtures & Mocking]]**|Fixture scope; fixture dependency; unittest.mock module; Mock and MagicMock; patch decorator; mocking external dependencies; side_effect. Test isolation.|
-|**[[1.9.5 Code Coverage]]**|coverage.py tool; pytest-cov plugin; coverage reports; branch coverage; coverage targets; uncovered code analysis; coverage in CI/CD. Measuring tests.|
-|**[[1.9.6 Integration Testing]]**|Testing with databases; API integration tests; Docker for tests; test databases; test data management; transaction rollback; testing strategies. Component testing.|
-|**[[1.9.7 Testing Best Practices]]**|Test naming conventions; AAA pattern (Arrange-Act-Assert); test independence; test speed; flaky tests; testing private methods; test maintainability. Quality tests.|
-|**[[1.9.8 Property-Based Testing]]**|Hypothesis library; property-based testing concepts; generating test data; finding edge cases; shrinking; stateful testing. Automated test generation.|
+| Topic                                 | Focus & Purpose                                                                                                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.9.1 Testing Fundamentals]]**    | Testing pyramid; unit vs integration vs end-to-end; test coverage concepts; TDD (Test-Driven Development); BDD (Behavior-Driven Development); testing principles. Testing philosophy. |
+| **[[1.9.2 Unittest Framework]]**      | TestCase classes; test methods; setUp and tearDown; assertions; test discovery; test suites; running tests; skip decorators. Standard library testing.                                |
+| **[[1.9.3 Pytest Framework]]**        | Pytest basics; test functions; fixtures; parametrized tests; markers; plugins; conftest.py; pytest vs unittest; assert introspection. Modern testing.                                 |
+| **[[1.9.4 Test Fixtures & Mocking]]** | Fixture scope; fixture dependency; unittest.mock module; Mock and MagicMock; patch decorator; mocking external dependencies; side_effect. Test isolation.                             |
+| **[[1.9.5 Code Coverage]]**           | coverage.py tool; pytest-cov plugin; coverage reports; branch coverage; coverage targets; uncovered code analysis; coverage in CI/CD. Measuring tests.                                |
+| **[[1.9.6 Integration Testing]]**     | Testing with databases; API integration tests; Docker for tests; test databases; test data management; transaction rollback; testing strategies. Component testing.                   |
+| **[[1.9.7 Testing Best Practices]]**  | Test naming conventions; AAA pattern (Arrange-Act-Assert); test independence; test speed; flaky tests; testing private methods; test maintainability. Quality tests.                  |
+| **[[1.9.8 Property-Based Testing]]**  | Hypothesis library; property-based testing concepts; generating test data; finding edge cases; shrinking; stateful testing. Automated test generation.                                |
 
 ---
 
-## **1.10 Debugging, Logging & Monitoring**
+## **[[1.10 Debugging, Logging & Monitoring]]**
 
 Master debugging techniques, logging practices, and monitoring for production systems. Learn debugger usage, logging levels, and observability. Production systems require comprehensive logging and monitoring—print statements are insufficient. Professional Python requires systematic debugging and observability.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[1.10.1 Debugging with PDB]]**|pdb module; breakpoint() function; debugger commands (n, s, c, l, p); post-mortem debugging; conditional breakpoints; debugger integration in IDEs. Interactive debugging.|
-|**[[1.10.2 Logging Basics]]**|logging module; log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL); basic configuration; logger objects; handlers; formatters. Structured logging.|
-|**[[1.10.3 Advanced Logging]]**|Logger hierarchy; log propagation; multiple handlers; rotating file handlers; logging to different destinations; custom handlers; logging performance. Production logging.|
-|**[[1.10.4 Structured Logging]]**|JSON logging; structured log data; python-json-logger; correlation IDs; request tracing; log aggregation; parsing structured logs. Machine-readable logs.|
-|**[[1.10.5 Exception Tracking]]**|Sentry integration; error reporting; stack traces; exception grouping; error alerts; debugging production errors. Error monitoring.|
-|**[[1.10.6 Profiling Performance]]**|cProfile module; profile decorator; line_profiler; profiling visualization; identifying bottlenecks; optimization targets. Performance analysis.|
-|**[[1.10.7 Memory Profiling]]**|memory_profiler; tracking memory usage; memory leaks; object tracking; garbage collection; memory optimization. Memory analysis.|
-|**[[1.10.8 Application Monitoring]]**|Metrics collection; Prometheus client; custom metrics; health checks; readiness probes; APM tools (New Relic, Datadog); observability principles. Production monitoring.|
+| Topic                                 | Focus & Purpose                                                                                                                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.10.1 Debugging with PDB]]**     | pdb module; breakpoint() function; debugger commands (n, s, c, l, p); post-mortem debugging; conditional breakpoints; debugger integration in IDEs. Interactive debugging. |
+| **[[1.10.2 Logging Basics]]**         | logging module; log levels (DEBUG, INFO, WARNING, ERROR, CRITICAL); basic configuration; logger objects; handlers; formatters. Structured logging.                         |
+| **[[1.10.3 Advanced Logging]]**       | Logger hierarchy; log propagation; multiple handlers; rotating file handlers; logging to different destinations; custom handlers; logging performance. Production logging. |
+| **[[1.10.4 Structured Logging]]**     | JSON logging; structured log data; python-json-logger; correlation IDs; request tracing; log aggregation; parsing structured logs. Machine-readable logs.                  |
+| **[[1.10.5 Exception Tracking]]**     | Sentry integration; error reporting; stack traces; exception grouping; error alerts; debugging production errors. Error monitoring.                                        |
+| **[[1.10.6 Profiling Performance]]**  | cProfile module; profile decorator; line_profiler; profiling visualization; identifying bottlenecks; optimization targets. Performance analysis.                           |
+| **[[1.10.7 Memory Profiling]]**       | memory_profiler; tracking memory usage; memory leaks; object tracking; garbage collection; memory optimization. Memory analysis.                                           |
+| **[[1.10.8 Application Monitoring]]** | Metrics collection; Prometheus client; custom metrics; health checks; readiness probes; APM tools (New Relic, Datadog); observability principles. Production monitoring.   |
 
 ---
 
