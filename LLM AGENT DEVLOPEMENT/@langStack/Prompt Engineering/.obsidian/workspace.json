@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Prompt Engineering Fundamentals/1.1.3 Instruction Design.md",
+                "file": "1.12 Production Prompt Engineering/1.12 Production Prompt Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.3 Instruction Design"
+              "title": "1.12 Production Prompt Engineering"
             }
           }
         ]
@@ -215,9 +215,21 @@
   },
   "active": "f0729291cb30c5df",
   "lastOpenFiles": [
+    "1.13 Emerging Techniques & Research/1.13 Emerging Techniques & Research.md",
+    "1.12 Production Prompt Engineering/1.12 Production Prompt Engineering.md",
+    "1.11 Model-Specific Optimization/1.11 Model-Specific Optimization.md",
+    "1.10 Evaluation & Testing/1.10 Evaluation & Testing.md",
+    "1.9 Domain-Specific Prompting/1.9 Domain-Specific Prompting.md",
+    "1.8 Multi-Turn & Conversational AI/1.8 Multi-Turn & Conversational AI.md",
+    "1.7 Safety & Alignment/1.7 Safety & Alignment.md",
+    "1.6 Reasoning & Problem Solving/1.6 Reasoning & Problem Solving.md",
+    "1.4 Structured Output & Data Extraction/1.4 Structured Output & Data Extraction.md",
+    "1.5 Context Window Optimization/1.5 Context Window Optimization.md",
+    "1.3 Role-Based & Persona Prompting/1.3 Role-Based & Persona Prompting.md",
+    "1.2 Advanced Prompting Techniques/1.2 Advanced Prompting Techniques.md",
     "Prompt Engineering.md",
-    "1.1 Prompt Engineering Fundamentals/1.1.2 Prompt Anatomy.md",
     "1.1 Prompt Engineering Fundamentals/1.1.3 Instruction Design.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.2 Prompt Anatomy.md",
     "1.1 Prompt Engineering Fundamentals/1.1 Prompt Engineering Fundamentals.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization.md",
     "Untitled 2.md",
@@ -229,19 +241,7 @@
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Garbage Collection.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Scope-Aware Binding.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Immutability Implication.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Representative Use Cases.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Object Identity.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Multiple Assignment.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Dynamic Typing.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Reassignment.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Name Binding.md",
-    "AGENTIC AI CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/Agents vs Simple Prompting.md",
-    "AGENTIC AI CORE/AGENTIC AI CORE.md",
-    "LONGWAY - PYTHON/LONG WAY PYTHON.md",
-    "Untitled 3.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types",
-    "1.2 Advanced Prompting Techniques.md",
-    "@PROMPTs/Promp - 1.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals",
     "LONGWAY - PYTHON",
     "Hugging-face Cource Materials",

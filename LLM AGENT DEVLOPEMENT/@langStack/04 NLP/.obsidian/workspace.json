@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "c80eff0b6a07b8d0",
+        "id": "4f15e66995bf8061",
         "type": "tabs",
         "children": [
           {
-            "id": "9a8595756e273dc5",
+            "id": "0a2bbe368d68af71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4.1 Text Processing Fundamentals/4.1.8 Preprocessing Pipelines.md",
+                "file": "4.7 Text Classification/4.7 Text Classification.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.1.8 Preprocessing Pipelines"
+              "title": "4.7 Text Classification"
+            }
+          },
+          {
+            "id": "45254c93de533c90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.8 Information Extraction/4.8 Information Extraction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.8 Information Extraction"
+            }
+          },
+          {
+            "id": "429e0e2d5dd5dcbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "4.12 Advanced NLP Topics/4.12 Advanced NLP Topics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.12 Advanced NLP Topics"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -202,34 +230,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a8595756e273dc5",
+  "active": "429e0e2d5dd5dcbb",
   "lastOpenFiles": [
-    "4.2 Advanced Tokenization/4.2.8 Tokenization for LLMs.md",
-    "4.2 Advanced Tokenization/4.2.7 Multilingual Tokenization.md",
-    "4.2 Advanced Tokenization/4.2.6 Special Tokens.md",
-    "4.2 Advanced Tokenization/4.2.5 Tokenizer Training.md",
-    "4.2 Advanced Tokenization/4.2.4 SentencePiece.md",
-    "4.2 Advanced Tokenization/4.2.3 WordPiece.md",
-    "4.2 Advanced Tokenization/4.2.2 Byte-Pair Encoding (BPE).md",
-    "4.2 Advanced Tokenization/4.2.1 Subword Tokenization.md",
-    "4.1 Text Processing Fundamentals/4.1.3 Text Cleaning.md",
-    "4.1 Text Processing Fundamentals/4.1.8 Preprocessing Pipelines.md",
-    "4.1 Text Processing Fundamentals/4.1.7 Encoding & Unicode.md",
-    "4.1 Text Processing Fundamentals/4.1.6 Regular Expressions.md",
-    "4.1 Text Processing Fundamentals/4.1.5 Stemming & Lemmatization.md",
-    "4.1 Text Processing Fundamentals/4.1.4 Stop Words.md",
-    "4.1 Text Processing Fundamentals/4.1 Text Processing Fundamentals.md",
-    "4.1 Text Processing Fundamentals/4.1.2 Text Normalization.md",
-    "4.1 Text Processing Fundamentals/4.1.1 Tokenization Basics.md",
-    "4.12 Advanced NLP Topics/4.12 Advanced NLP Topics.md",
-    "4.11 Question Answering/4.11 Question Answering.md",
-    "4.10 Sequence-to-Sequence Models/4.10 Sequence-to-Sequence Models.md",
-    "4.9 Language Modeling/4.9 Language Modeling.md",
-    "4.8 Information Extraction/4.8 Information Extraction.md",
-    "4.7 Text Classification/4.7 Text Classification.md",
-    "4.6 Part-of-Speech Tagging & Parsing/4.6 Part-of-Speech Tagging & Parsing.md",
-    "4.5 Named Entity Recognition (NER)/4.5 Named Entity Recognition (NER).md",
-    "4.4 Contextual Embeddings & Transformers/4.4 Contextual Embeddings & Transformers.md",
+    "4.12 Advanced NLP Topics/4.12.8 NLP for Code.md",
+    "4.12 Advanced NLP Topics/4.12.7 Efficient NLP.md",
+    "4.12 Advanced NLP Topics/4.12.6 Domain Adaptation.md",
+    "4.12 Advanced NLP Topics/4.12.5 Bias & Fairness.md",
+    "4.12 Advanced NLP Topics/4.12.4 Interpretability.md",
+    "4.12 Advanced NLP Topics/4.12.3 Low-Resource NLP.md",
+    "4.12 Advanced NLP Topics/4.12.2 Cross-lingual NLP.md",
+    "4.12 Advanced NLP Topics/4.12.1 Multimodal NLP.md",
+    "4.11 Question Answering/4.11.8 QA Evaluation.md",
+    "4.11 Question Answering/4.11.7 Answer Ranking.md",
+    "4.11 Question Answering/4.11.6 Conversational QA.md",
+    "4.11 Question Answering/4.11.5 Generative QA.md",
+    "4.11 Question Answering/4.11.4 Open-Domain QA.md",
+    "4.11 Question Answering/4.11.3 Reading Comprehension.md",
+    "4.11 Question Answering/4.11.2 Extractive QA.md",
+    "4.11 Question Answering/4.11.1 QA Task Types.md",
+    "4.10 Sequence-to-Sequence Models/4.10.8 Fine-tuning for Generation.md",
+    "4.10 Sequence-to-Sequence Models/4.10.7 Evaluation Metrics.md",
+    "4.10 Sequence-to-Sequence Models/4.10.6 Decoding Strategies.md",
+    "4.10 Sequence-to-Sequence Models/4.10.5 Text Summarization.md",
+    "4.10 Sequence-to-Sequence Models/4.10.4 Machine Translation.md",
+    "4.10 Sequence-to-Sequence Models/4.10.3 Transformer Seq2seq.md",
+    "4.10 Sequence-to-Sequence Models/4.10.2 Attention Mechanisms.md",
+    "4.10 Sequence-to-Sequence Models/4.10.1 Seq2seq Basics.md",
+    "4.9 Language Modeling/4.9.8 Domain Language Models.md",
+    "4.9 Language Modeling/4.9.7 Conditional Generation.md",
+    "4.12 Deployment & MLOps",
+    "4.11 Advanced Agentic Workflows",
     "4.12 Advanced NLP Topics",
     "4.11 Question Answering",
     "4.10 Sequence-to-Sequence Models",
@@ -238,8 +268,6 @@
     "4.7 Text Classification",
     "4.6 Part-of-Speech Tagging & Parsing",
     "4.4 Contextual Embeddings & Transformers",
-    "4.5 Named Entity Recognition (NER)",
-    "4.3 Word Embeddings",
     "Untitled.canvas",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (2).png",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (1).png",
