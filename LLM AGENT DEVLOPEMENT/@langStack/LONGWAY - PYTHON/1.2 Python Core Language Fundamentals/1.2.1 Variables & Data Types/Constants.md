@@ -1,0 +1,14 @@
+Below is a **semi-academic concepts table** for **Constants**, consistent with the tone and structure of your earlier Python fundamentals sections.
+
+|**Concept**|**Brief (Improved, Semi-Academic)**|
+|---|---|
+|**[[Constants]]**|Constants are names bound to values that are intended to remain unchanged throughout program execution.|
+|**[[Naming Convention]]**|Constants are written in uppercase letters to clearly signal immutability by developer intent.|
+|**[[No Enforcement]]**|Python does not provide language-level enforcement for constants; reassignment remains possible.|
+|**[[Immutability vs Convention]]**|Constantness reflects a semantic contract rather than true immutability of the underlying object.|
+|**[[Module Scope Usage]]**|Constants are typically defined at module level to represent configuration or fixed parameters.|
+|**[[Readability Benefit]]**|Uppercase naming improves code readability and reduces accidental modification.|
+|**[[Tooling Awareness]]**|Linters and static analysis tools may warn against reassignment of conventionally defined constants.|
+|**[[Design Discipline]]**|Effective use of constants relies on developer discipline and shared coding standards.|
+
+This framing preserves **academic clarity** while reinforcing Python’s **convention-over-enforcement** design philosophy.

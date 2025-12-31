@@ -1,0 +1,10 @@
+|**Concept**|**Brief (Improved, Semi-Academic)**|
+|---|---|
+|**[[Type Hints (PEP 484)]]**|Type hints provide optional annotations that describe the intended types of variables, parameters, and return values.|
+|**[[Annotation Syntax]]**|Type information is expressed using annotations such as `x: int` and `def f() -> str`, without affecting runtime behavior.|
+|**[[Static Analysis]]**|Type hints enable external tools to perform static type checking, error detection, and code validation prior to execution.|
+|**[[Runtime Neutrality]]**|Python does not enforce type hints at runtime; they serve as metadata rather than constraints.|
+|**[[Optional Typing]]**|Hints may be partially applied or omitted entirely, allowing gradual typing in large codebases.|
+|**[[Documentation Benefit]]**|Annotations act as machine-readable documentation, improving code comprehension and maintainability.|
+|**[[Tooling Ecosystem]]**|Linters, IDEs, and type checkers leverage PEP 484 to enhance developer feedback and refactoring safety.|
+|**[[Design Philosophy]]**|PEP 484 balances Python’s dynamic nature with static reasoning, emphasizing clarity over enforcement.|

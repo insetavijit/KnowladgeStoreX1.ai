@@ -1,0 +1,14 @@
+Below is a **refined, semi-academic concepts table** for **Type Conversion (Casting)**, consistent with your earlier entries on dynamic typing, type inference, and type hints.
+
+|**Concept**|**Brief (Improved, Semi-Academic)**|
+|---|---|
+|**[[Type Conversion (Casting)]]**|Type conversion explicitly transforms a value from one data type to another using constructor functions.|
+|**[[Built-in Converters]]**|Functions such as `int()`, `float()`, `str()`, and `bool()` define standardized conversion semantics.|
+|**[[Compatible Types]]**|Conversions are valid only when the source value’s representation is compatible with the target type.|
+|**[[Explicit Operation]]**|Casting is an intentional, developer-controlled action, distinct from implicit type inference.|
+|**[[Information Loss]]**|Certain conversions may truncate, round, or otherwise discard information, particularly numeric casts.|
+|**[[Runtime Validation]]**|Invalid conversions raise runtime exceptions, enforcing correctness during execution.|
+|**[[Truth-Value Conversion]]**|Conversion to `bool` follows Python’s truth-value testing rules rather than numerical equivalence.|
+|**[[Design Implication]]**|Explicit casting improves clarity and robustness when handling heterogeneous or external data.|
+
+This table maintains **academic precision** while remaining concise and suitable for **documentation, revision, or interviews**.
