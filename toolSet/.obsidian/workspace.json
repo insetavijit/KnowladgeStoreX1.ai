@@ -11,14 +11,10 @@
             "id": "8a6f1f60093f4ed5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "toolSet/Git/02 Git Syllabus.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02 Git Syllabus"
+              "title": "New tab"
             }
           }
         ]
@@ -128,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -199,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8a6f1f60093f4ed5",
+  "active": "b3ea8d591869e90f",
   "lastOpenFiles": [
     "toolSet/Git/S01 CORE — Git Fundamentals & Version Control Basics.md",
     "LLM AGENT DEVLOPEMENT",
