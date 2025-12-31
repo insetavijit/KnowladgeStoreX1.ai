@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.8 Token Limits & Counting.md",
+                "file": "1.1 Prompt Engineering Fundamentals/1.1.3 Instruction Design/1.1.3 Instruction Design.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.1.1.8 Token Limits & Counting"
+              "title": "1.1.3 Instruction Design"
             }
           }
         ]
@@ -128,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -215,6 +216,21 @@
   },
   "active": "8a6f1f60093f4ed5",
   "lastOpenFiles": [
+    "1.1 Prompt Engineering Fundamentals/1.1.2 Prompt Anatomy/1.1.2 Prompt Anatomy.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.8 Common Pitfalls/1.1.8 Common Pitfalls.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.8 Common Pitfalls",
+    "1.1 Prompt Engineering Fundamentals/1.1.7 Prompt Iteration/1.1.7 Prompt Iteration.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.7 Prompt Iteration",
+    "1.1 Prompt Engineering Fundamentals/1.1.6 Temperature & Parameters/1.1.6 Temperature & Parameters.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.6 Temperature & Parameters",
+    "1.1 Prompt Engineering Fundamentals/1.1.5 Output Formatting/1.1.5 Output Formatting.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.5 Output Formatting",
+    "1.1 Prompt Engineering Fundamentals/1.1.4 Context Management/1.1.4 Context Management.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.4 Context Management",
+    "1.1 Prompt Engineering Fundamentals/1.1.3 Instruction Design/1.1.3 Instruction Design.md",
+    "1.1 Prompt Engineering Fundamentals/1.1.3 Instruction Design",
+    "1.1 Prompt Engineering Fundamentals/1.1.2 Prompt Anatomy",
+    "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.8 Token Limits & Counting.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.7 Context Window & Memory.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.6 Embeddings (High-Level).md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.5 Tokenization Process.md",
@@ -224,7 +240,6 @@
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.10 Inference & Decoding Basics.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.11 Practical Implications & Limitations.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1 LLM Basics & Tokenization.md",
-    "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.8 Token Limits & Counting.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.2 How LLMs Are Trained.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.1 What Is an LLM.md",
     "1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM",
@@ -232,25 +247,10 @@
     "1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization",
     "1.1 Prompt Engineering Fundamentals/1.1 Prompt Engineering Fundamentals.md",
     "Prompt Engineering.md",
-    "1.1 Prompt Engineering Fundamentals/1.1.8 Common Pitfalls.md",
     "1.2 Advanced Prompting Techniques/1.2 Advanced Prompting Techniques.md",
     "1.13 Emerging Techniques & Research/1.13.8 Research Frontiers.md",
     "1.13 Emerging Techniques & Research/1.13.7 Multimodal Prompting.md",
     "1.13 Emerging Techniques & Research/1.13.6 RLHF Implications.md",
-    "1.13 Emerging Techniques & Research/1.13.5 Instruction Tuning.md",
-    "1.13 Emerging Techniques & Research/1.13.4 Soft Prompting.md",
-    "1.13 Emerging Techniques & Research/1.13.3 Meta-Prompting.md",
-    "1.13 Emerging Techniques & Research/1.13.2 Automatic Prompt Engineering.md",
-    "1.13 Emerging Techniques & Research/1.13.1 Prompt Chaining.md",
-    "1.12 Production Prompt Engineering/1.12.8 Deployment Strategies.md",
-    "1.12 Production Prompt Engineering/1.12.7 Observability.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals",
-    "LONGWAY - PYTHON",
-    "Hugging-face Cource Materials",
-    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.5 Performance, Security & Best Practices",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.12 Best Practices & Pitfalls",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.11 When to Use LangGraph",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (2).png",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (1).png",
     "AGENTIC AI CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",

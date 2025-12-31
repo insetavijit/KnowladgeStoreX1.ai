@@ -11,10 +11,14 @@
             "id": "07533c10fb465488",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.8 Debugging & Callbacks/2.1.8 Debugging & Callbacks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2.1.8 Debugging & Callbacks"
             }
           }
         ]
@@ -210,8 +214,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07533c10fb465488",
+  "active": "f0729291cb30c5df",
   "lastOpenFiles": [
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.8 Debugging & Callbacks",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.7 Memory Basics/2.1.7 Memory Basics.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.7 Memory Basics",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.6 Output Parsers/2.1.6 Output Parsers.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.6 Output Parsers",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.5 LCEL (LangChain Expression Language)/2.1.5 LCEL (LangChain Expression Language).md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.5 LCEL (LangChain Expression Language)",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.4 Chains Basics/2.1.4 Chains Basics.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.4 Chains Basics",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.3 Prompts & Prompt Templates/2.1.3 Prompts & Prompt Templates.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.3 Prompts & Prompt Templates",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.2 LLM Integration/2.1.2 LLM Integration.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.2 LLM Integration",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1 LangChain Fundamentals.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.1 LangChain Setup & Architecture/2.1.1 LangChain Setup & Architecture.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.1 LangChain Setup & Architecture",
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.1 LangChain Setup & Architecture/LangChain Installation.md",
+    "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.2 Agent Architecture Components/1.1.2 Agent Architecture Components.md",
     "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.1 What Is an LLM.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1What Is an LLM.md",
@@ -221,10 +243,6 @@
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM/1.1.1 LLM Basics & Tokenization",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/What Is an LLM.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1.1.1 What Is an LLM",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/Untitled 1",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/Untitled",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1.1 LLM Basics & Tokenization",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM.md",
     "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
     "1.2 Advanced Prompting Techniques.md",
@@ -234,20 +252,6 @@
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.6 RLHF Implications.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.5 Instruction Tuning.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.4 Soft Prompting.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.3 Meta-Prompting.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.2 Automatic Prompt Engineering.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.1 Prompt Chaining.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.8 Deployment Strategies.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.7 Observability.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.6 Cost Optimization.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.5 Batch Processing.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.4 Caching Strategies.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.3 API Integration.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.2 Prompt Management Systems.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.1 Prompt Versioning.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/upComming",
-    "LLM AGENT DEVLOPEMENT",
-    "toolSet/Git/APPLIED - GIT",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (2).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (1).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",
