@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Git/Git Syllabus.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -128,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -214,10 +213,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0729291cb30c5df",
+  "active": "8a6f1f60093f4ed5",
   "lastOpenFiles": [
     "Git/S01 CORE/S01 CORE — Git Fundamentals & Version Control Basics.md",
+    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/Tracking file history.md",
     "Git/Git Syllabus.md",
+    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/What is Version Control.md",
+    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/Purpose of version control.md",
+    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/1.1 Version Control Philosophy & Setup.md",
+    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/1.1.10 `.gitconfig` Structure.md",
     "Git/01 Foundation - Git.md",
     "Git/S01 CORE/1.7 Basic Collaboration/1.7 Basic Collaboration.md",
     "Git/S01 CORE/1.7 Basic Collaboration",
@@ -231,7 +235,6 @@
     "Git/S01 CORE/1.3 Basic Git Operations",
     "Git/S01 CORE/1.2 Repository Basics/1.2 Repository Basics.md",
     "Git/S01 CORE/1.2 Repository Basics",
-    "Git/S01 CORE/1.1 Version Control Philosophy & Setup/1.1 Version Control Philosophy & Setup.md",
     "Git/S01 CORE/1.1 Version Control Philosophy & Setup",
     "toolSet/Git/S01 CORE — Git Fundamentals & Version Control Basics.md",
     "LLM AGENT DEVLOPEMENT",
@@ -248,10 +251,6 @@
     "toolSet/Git/02 Git Syllabus.md",
     "toolSet/Git",
     "LLM AGENT DEVLOPEMENT/@langStack/LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Variable Declaration.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Scope-Aware Binding.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Reassignment.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/PROCESS_AUTOMATION_GUIDE.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Object Identity.md",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (2).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (1).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",

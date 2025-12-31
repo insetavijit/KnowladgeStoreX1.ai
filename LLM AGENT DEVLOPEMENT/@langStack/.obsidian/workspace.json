@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 FastAPI/FastAPI.md",
-                "mode": "source",
+                "file": "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Variable Declaration.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FastAPI"
+              "title": "Variable Declaration"
             }
           }
         ]
@@ -127,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -203,18 +204,19 @@
   },
   "active": "a3d991c418bb9eea",
   "lastOpenFiles": [
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Scope-Aware Binding.md",
+    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Dynamic Typing.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Variable Declaration.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/PROCESS_AUTOMATION_GUIDE.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Reassignment.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Object Identity.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Name Binding.md",
+    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1 Variables & Data Types.md",
+    "05 FastAPI/FastAPI.md",
+    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Scope-Aware Binding.md",
+    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/PROCESS_AUTOMATION_GUIDE.md",
+    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Object Identity.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Immutability Implication.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Multiple Assignment.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Garbage Collection.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Dynamic Typing.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Assignment Operator.md",
-    "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1 Variables & Data Types.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types",
     "LONGWAY - PYTHON/LONG WAY PYTHON.md",
     "LONGWAY - PYTHON/1.2 Python Core Language Fundamentals",
@@ -230,7 +232,6 @@
     "Prompt Engineering/1.5 Context Window Optimization",
     "Prompt Engineering/1.4 Structured Output & Data Extraction",
     "Prompt Engineering/1.3 Role-Based & Persona Prompting",
-    "05 FastAPI/FastAPI.md",
     "01 LangChain/LangChain.md",
     "02 LangGraph/LangGraph.md",
     "03 Langfuse/Langfuse.md",
