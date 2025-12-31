@@ -11,10 +11,14 @@
             "id": "8a6f1f60093f4ed5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git/02 Git Syllabus.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "02 Git Syllabus"
             }
           }
         ]
@@ -210,8 +214,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b3ea8d591869e90f",
+  "active": "f0729291cb30c5df",
   "lastOpenFiles": [
+    "Git/S01 CORE — Git Fundamentals & Version Control Basics.md",
     "toolSet/Git/S01 CORE — Git Fundamentals & Version Control Basics.md",
     "LLM AGENT DEVLOPEMENT",
     "toolSet/Git/APPLIED - GIT/1.1 Version Control Philosophy & Setup.md",
