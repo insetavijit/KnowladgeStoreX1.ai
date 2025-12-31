@@ -88,95 +88,95 @@ Master advanced document processing for enterprise applications. Learn document 
 | **[[2.6.7 Table & Figure Extraction]]** | Table parsing; Unstructured integration; image extraction; caption processing; multi-modal documents. Structured data.                |
 | **[[2.6.8 Document Comparison]]**       | Diff analysis; version comparison; change detection; similarity scoring; duplicate detection. Document analysis.                      |
 
-### **2.7 Data Connection & Integration**
+### **[[2.7 Data Connection & Integration]]**
 
 Master connecting LLMs to external data sources and APIs. Learn SQL integration, API chains, web scraping, and database query generation. Understand data validation, transformation, and pipeline orchestration. Build agents that access databases, APIs, and web services. Data integration enables LLMs to access real-time information and act on external systems.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.7.1 SQL Database Integration]]**|SQLDatabase; SQL chains; query generation; database agents; natural language to SQL; query validation. Database access.|
-|**[[2.7.2 API Chains]]**|APIChain; REST API integration; authentication; request construction; response parsing; API documentation. External services.|
-|**[[2.7.3 Web Scraping]]**|WebBaseLoader; BeautifulSoup; Playwright; dynamic content; scraping strategies; ethical scraping. Web data extraction.|
-|**[[2.7.4 GraphQL Integration]]**|GraphQL chains; query generation; schema understanding; nested queries; GraphQL clients. Graph APIs.|
-|**[[2.7.5 Data Validation]]**|Input validation; output validation; Pydantic integration; type checking; schema enforcement. Data integrity.|
-|**[[2.7.6 Data Transformation]]**|Transform chains; data mapping; normalization; aggregation; preprocessing; ETL patterns. Data processing.|
-|**[[2.7.7 Multi-Source Integration]]**|Combining data sources; data fusion; source prioritization; conflict resolution; unified interfaces. Heterogeneous data.|
-|**[[2.7.8 Real-Time Data]]**|Streaming data; webhooks; event-driven; real-time APIs; live data integration; update patterns. Dynamic data.|
+| Topic                                  | Focus & Purpose                                                                                                               |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.7.1 SQL Database Integration]]** | SQLDatabase; SQL chains; query generation; database agents; natural language to SQL; query validation. Database access.       |
+| **[[2.7.2 API Chains]]**               | APIChain; REST API integration; authentication; request construction; response parsing; API documentation. External services. |
+| **[[2.7.3 Web Scraping]]**             | WebBaseLoader; BeautifulSoup; Playwright; dynamic content; scraping strategies; ethical scraping. Web data extraction.        |
+| **[[2.7.4 GraphQL Integration]]**      | GraphQL chains; query generation; schema understanding; nested queries; GraphQL clients. Graph APIs.                          |
+| **[[2.7.5 Data Validation]]**          | Input validation; output validation; Pydantic integration; type checking; schema enforcement. Data integrity.                 |
+| **[[2.7.6 Data Transformation]]**      | Transform chains; data mapping; normalization; aggregation; preprocessing; ETL patterns. Data processing.                     |
+| **[[2.7.7 Multi-Source Integration]]** | Combining data sources; data fusion; source prioritization; conflict resolution; unified interfaces. Heterogeneous data.      |
+| **[[2.7.8 Real-Time Data]]**           | Streaming data; webhooks; event-driven; real-time APIs; live data integration; update patterns. Dynamic data.                 |
 
-### **2.8 Production Engineering**
+### **[[2.8 Production Engineering]]**
 
 Build production-ready LangChain applications with proper error handling, observability, security, and deployment. Learn streaming, caching, rate limiting, and cost optimization. Understand monitoring, tracing, testing, and CI/CD. Master secrets management, input validation, and security best practices. Production engineering separates prototypes from reliable, scalable systems.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.8.1 Error Handling & Retries]]**|Exception handling; retry decorators; exponential backoff; fallback strategies; error logging; graceful degradation. Robust applications.|
-|**[[2.8.2 Caching Strategies]]**|InMemoryCache; Redis cache; SQLite cache; cache keys; cache invalidation; cost reduction. Performance optimization.|
-|**[[2.8.3 Rate Limiting & Throttling]]**|Request throttling; API rate limits; quota management; backoff; queue management; limit handling. Controlling throughput.|
-|**[[2.8.4 Token Management]]**|Token counting; context window limits; token optimization; cost tracking; budget enforcement. Managing costs.|
-|**[[2.8.5 Streaming & Real-Time]]**|Streaming callbacks; token streaming; event streaming; SSE; WebSockets; real-time UIs. Live responses.|
-|**[[2.8.6 Testing LangChain Apps]]**|Unit testing; integration testing; mocking LLMs; test fixtures; response validation; CI/CD. Quality assurance.|
-|**[[2.8.7 Observability & Monitoring]]**|LangSmith tracing; callback handlers; logging; metrics; debugging; performance monitoring. Production visibility.|
-|**[[2.8.8 Security Best Practices]]**|Input sanitization; prompt injection defense; secrets management; output filtering; sandboxing. Application security.|
+| Topic                                    | Focus & Purpose                                                                                                                           |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.8.1 Error Handling & Retries]]**   | Exception handling; retry decorators; exponential backoff; fallback strategies; error logging; graceful degradation. Robust applications. |
+| **[[2.8.2 Caching Strategies]]**         | InMemoryCache; Redis cache; SQLite cache; cache keys; cache invalidation; cost reduction. Performance optimization.                       |
+| **[[2.8.3 Rate Limiting & Throttling]]** | Request throttling; API rate limits; quota management; backoff; queue management; limit handling. Controlling throughput.                 |
+| **[[2.8.4 Token Management]]**           | Token counting; context window limits; token optimization; cost tracking; budget enforcement. Managing costs.                             |
+| **[[2.8.5 Streaming & Real-Time]]**      | Streaming callbacks; token streaming; event streaming; SSE; WebSockets; real-time UIs. Live responses.                                    |
+| **[[2.8.6 Testing LangChain Apps]]**     | Unit testing; integration testing; mocking LLMs; test fixtures; response validation; CI/CD. Quality assurance.                            |
+| **[[2.8.7 Observability & Monitoring]]** | LangSmith tracing; callback handlers; logging; metrics; debugging; performance monitoring. Production visibility.                         |
+| **[[2.8.8 Security Best Practices]]**    | Input sanitization; prompt injection defense; secrets management; output filtering; sandboxing. Application security.                     |
 
-### **2.9 Advanced Prompt Engineering**
+### **[[2.9 Advanced Prompt Engineering]]**
 
 Master sophisticated prompting techniques for optimal LLM performance. Learn few-shot learning, chain-of-thought, prompt optimization, and dynamic prompts. Understand prompt templates, example selection, and prompt versioning. Build prompt libraries, A/B test prompts, and measure prompt effectiveness. Prompt engineering is the highest-leverage skill—great prompts unlock model capabilities.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.9.1 Few-Shot Prompting]]**|Example selection; FewShotPromptTemplate; dynamic examples; example formatting; optimal number of shots. Learning from examples.|
-|**[[2.9.2 Chain-of-Thought Prompting]]**|CoT templates; reasoning steps; step-by-step; CoT with examples; zero-shot CoT; reasoning quality. Transparent reasoning.|
-|**[[2.9.3 Prompt Composition]]**|Composing prompts; partial templates; template chaining; modular prompts; prompt inheritance. Reusable prompts.|
-|**[[2.9.4 Dynamic Prompts]]**|Runtime prompt generation; conditional prompts; context-aware prompts; adaptive prompting; personalized prompts. Flexible prompting.|
-|**[[2.9.5 Prompt Optimization]]**|Iterative refinement; A/B testing; prompt metrics; DSPy integration; automated optimization; version control. Improving prompts.|
-|**[[2.9.6 Example Selectors]]**|SemanticSimilarityExampleSelector; MaxMarginalRelevanceExampleSelector; LengthBasedExampleSelector; custom selectors. Smart examples.|
-|**[[2.9.7 Prompt Templates Library]]**|Template catalog; domain-specific templates; reusable patterns; template versioning; template management. Prompt assets.|
-|**[[2.9.8 Prompt Evaluation]]**|Evaluation metrics; quality assessment; consistency testing; regression testing; prompt benchmarking. Measuring effectiveness.|
+| Topic                                    | Focus & Purpose                                                                                                                       |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.9.1 Few-Shot Prompting]]**         | Example selection; FewShotPromptTemplate; dynamic examples; example formatting; optimal number of shots. Learning from examples.      |
+| **[[2.9.2 Chain-of-Thought Prompting]]** | CoT templates; reasoning steps; step-by-step; CoT with examples; zero-shot CoT; reasoning quality. Transparent reasoning.             |
+| **[[2.9.3 Prompt Composition]]**         | Composing prompts; partial templates; template chaining; modular prompts; prompt inheritance. Reusable prompts.                       |
+| **[[2.9.4 Dynamic Prompts]]**            | Runtime prompt generation; conditional prompts; context-aware prompts; adaptive prompting; personalized prompts. Flexible prompting.  |
+| **[[2.9.5 Prompt Optimization]]**        | Iterative refinement; A/B testing; prompt metrics; DSPy integration; automated optimization; version control. Improving prompts.      |
+| **[[2.9.6 Example Selectors]]**          | SemanticSimilarityExampleSelector; MaxMarginalRelevanceExampleSelector; LengthBasedExampleSelector; custom selectors. Smart examples. |
+| **[[2.9.7 Prompt Templates Library]]**   | Template catalog; domain-specific templates; reusable patterns; template versioning; template management. Prompt assets.              |
+| **[[2.9.8 Prompt Evaluation]]**          | Evaluation metrics; quality assessment; consistency testing; regression testing; prompt benchmarking. Measuring effectiveness.        |
 
-### **2.10 LangChain Expression Language Deep Dive**
+### **[[2.10 LangChain Expression Language Deep Dive]]**
 
 Master LCEL as the modern standard for building LangChain applications. Learn advanced composition, custom components, type safety, and performance optimization. Understand the Runnable protocol, streaming architecture, and async patterns. Build production-grade LCEL chains with proper error handling and observability. LCEL replaces legacy chains—mastery is essential for modern LangChain development.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.10.1 Runnable Protocol]]**|Runnable interface; invoke/batch/stream; InputType/OutputType; Runnable contract; protocol design. Core abstraction.|
-|**[[2.10.2 Advanced Composition]]**|Complex pipelines; nested composition; RunnableSequence; RunnableParallel; composition patterns. Building complex chains.|
-|**[[2.10.3 Type Safety]]**|TypedDict; Pydantic models; input/output types; type checking; runtime validation; type inference. Type-safe chains.|
-|**[[2.10.4 RunnablePassthrough Patterns]]**|Pass-through data; data injection; side effects; data transformation; assign; context preservation. Data flow control.|
-|**[[2.10.5 RunnableLambda Advanced]]**|Custom functions; async lambdas; error handling; logging; side effects; lambda patterns. Custom logic.|
-|**[[2.10.6 Streaming Architecture]]**|Event streaming; chunk streaming; streaming callbacks; astream_events; streaming patterns. Stream processing.|
-|**[[2.10.7 Configuration & Context]]**|RunnableConfig; configurable chains; runtime context; environment; tags; metadata. Chain configuration.|
-|**[[2.10.8 Performance Optimization]]**|Batch optimization; parallel execution; caching; lazy evaluation; profiling; bottleneck identification. Speed improvements.|
+| Topic                                       | Focus & Purpose                                                                                                             |
+| ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.10.1 Runnable Protocol]]**            | Runnable interface; invoke/batch/stream; InputType/OutputType; Runnable contract; protocol design. Core abstraction.        |
+| **[[2.10.2 Advanced Composition]]**         | Complex pipelines; nested composition; RunnableSequence; RunnableParallel; composition patterns. Building complex chains.   |
+| **[[2.10.3 Type Safety]]**                  | TypedDict; Pydantic models; input/output types; type checking; runtime validation; type inference. Type-safe chains.        |
+| **[[2.10.4 RunnablePassthrough Patterns]]** | Pass-through data; data injection; side effects; data transformation; assign; context preservation. Data flow control.      |
+| **[[2.10.5 RunnableLambda Advanced]]**      | Custom functions; async lambdas; error handling; logging; side effects; lambda patterns. Custom logic.                      |
+| **[[2.10.6 Streaming Architecture]]**       | Event streaming; chunk streaming; streaming callbacks; astream_events; streaming patterns. Stream processing.               |
+| **[[2.10.7 Configuration & Context]]**      | RunnableConfig; configurable chains; runtime context; environment; tags; metadata. Chain configuration.                     |
+| **[[2.10.8 Performance Optimization]]**     | Batch optimization; parallel execution; caching; lazy evaluation; profiling; bottleneck identification. Speed improvements. |
 
-### **2.11 Multi-Modal & Specialized Models**
+### **[[2.11 Multi-Modal & Specialized Models]]**
 
 Master working with vision models, audio models, and specialized LLMs. Learn image understanding, vision-language tasks, speech-to-text, and text-to-speech integration. Understand multi-modal RAG, image captioning, and visual question answering. Build applications that process images, audio, and video alongside text. Multi-modal AI is rapidly expanding—essential for modern applications.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.11.1 Vision-Language Models]]**|GPT-4 Vision, Claude Vision; image input; image understanding; visual prompts; image analysis chains. Vision integration.|
-|**[[2.11.2 Image Processing Chains]]**|Image loading; image encoding; image captioning; OCR integration; image classification. Image workflows.|
-|**[[2.11.3 Visual Question Answering]]**|VQA chains; image-text retrieval; visual grounding; multi-modal RAG; image search. Vision-based QA.|
-|**[[2.11.4 Audio & Speech]]**|Whisper integration; speech-to-text; text-to-speech; audio transcription; audio analysis. Audio processing.|
-|**[[2.11.5 Video Processing]]**|Video frame extraction; video understanding; temporal analysis; video summarization; video QA. Video workflows.|
-|**[[2.11.6 Multi-Modal Embeddings]]**|CLIP embeddings; multi-modal vector stores; cross-modal search; image-text similarity. Unified representations.|
-|**[[2.11.7 Code Models]]**|Code generation; code understanding; code completion; debugging assistance; repository analysis. Code-specific LLMs.|
-|**[[2.11.8 Domain-Specific Models]]**|Medical models; legal models; financial models; scientific models; specialized fine-tuning. Vertical models.|
+| Topic                                    | Focus & Purpose                                                                                                           |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **[[2.11.1 Vision-Language Models]]**    | GPT-4 Vision, Claude Vision; image input; image understanding; visual prompts; image analysis chains. Vision integration. |
+| **[[2.11.2 Image Processing Chains]]**   | Image loading; image encoding; image captioning; OCR integration; image classification. Image workflows.                  |
+| **[[2.11.3 Visual Question Answering]]** | VQA chains; image-text retrieval; visual grounding; multi-modal RAG; image search. Vision-based QA.                       |
+| **[[2.11.4 Audio & Speech]]**            | Whisper integration; speech-to-text; text-to-speech; audio transcription; audio analysis. Audio processing.               |
+| **[[2.11.5 Video Processing]]**          | Video frame extraction; video understanding; temporal analysis; video summarization; video QA. Video workflows.           |
+| **[[2.11.6 Multi-Modal Embeddings]]**    | CLIP embeddings; multi-modal vector stores; cross-modal search; image-text similarity. Unified representations.           |
+| **[[2.11.7 Code Models]]**               | Code generation; code understanding; code completion; debugging assistance; repository analysis. Code-specific LLMs.      |
+| **[[2.11.8 Domain-Specific Models]]**    | Medical models; legal models; financial models; scientific models; specialized fine-tuning. Vertical models.              |
 
-### **2.12 Enterprise & Production Systems**
+### **[[2.12 Enterprise & Production Systems]]**
 
 Build enterprise-grade LangChain applications with proper architecture, governance, and compliance. Learn multi-tenancy, access control, audit logging, and enterprise integration. Understand deployment patterns, scaling strategies, and disaster recovery. Master cost management, SLA compliance, and enterprise support. This section covers patterns for regulated industries and large-scale deployments.
 
-|Topic|Focus & Purpose|
-|---|---|
-|**[[2.12.1 Architecture Patterns]]**|Microservices; serverless; event-driven; domain-driven design; clean architecture; scalability. System design.|
-|**[[2.12.2 Multi-Tenancy]]**|Tenant isolation; per-tenant configuration; tenant routing; data isolation; tenant-aware chains. Multi-customer systems.|
-|**[[2.12.3 Access Control & Auth]]**|Authentication; authorization; RBAC; API keys; OAuth; JWT; user context; permission checking. Security.|
-|**[[2.12.4 Audit & Compliance]]**|Audit logging; compliance tracking; data lineage; explainability; GDPR; regulatory requirements. Governance.|
-|**[[2.12.5 Enterprise Integration]]**|SSO; LDAP; Active Directory; SAML; enterprise APIs; legacy systems; middleware. Corporate systems.|
-|**[[2.12.6 High Availability]]**|Load balancing; failover; redundancy; health checks; circuit breakers; disaster recovery. Reliability.|
-|**[[2.12.7 Cost Management]]**|Chargeback; cost allocation; budget controls; usage tracking; optimization strategies; ROI. Financial management.|
-|**[[2.12.8 SLA & Support]]**|Service level agreements; uptime; performance SLAs; monitoring; incident response; escalation. Production support.|
+| Topic                                 | Focus & Purpose                                                                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **[[2.12.1 Architecture Patterns]]**  | Microservices; serverless; event-driven; domain-driven design; clean architecture; scalability. System design.           |
+| **[[2.12.2 Multi-Tenancy]]**          | Tenant isolation; per-tenant configuration; tenant routing; data isolation; tenant-aware chains. Multi-customer systems. |
+| **[[2.12.3 Access Control & Auth]]**  | Authentication; authorization; RBAC; API keys; OAuth; JWT; user context; permission checking. Security.                  |
+| **[[2.12.4 Audit & Compliance]]**     | Audit logging; compliance tracking; data lineage; explainability; GDPR; regulatory requirements. Governance.             |
+| **[[2.12.5 Enterprise Integration]]** | SSO; LDAP; Active Directory; SAML; enterprise APIs; legacy systems; middleware. Corporate systems.                       |
+| **[[2.12.6 High Availability]]**      | Load balancing; failover; redundancy; health checks; circuit breakers; disaster recovery. Reliability.                   |
+| **[[2.12.7 Cost Management]]**        | Chargeback; cost allocation; budget controls; usage tracking; optimization strategies; ROI. Financial management.        |
+| **[[2.12.8 SLA & Support]]**          | Service level agreements; uptime; performance SLAs; monitoring; incident response; escalation. Production support.       |
 
 ---
 
