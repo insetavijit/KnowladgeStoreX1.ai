@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "987dd53b28b0e67b",
+        "id": "7c4b66ed2d2b98d3",
         "type": "tabs",
         "children": [
           {
-            "id": "8a6f1f60093f4ed5",
+            "id": "07533c10fb465488",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM AGENT DEVLOPEMENT/@langStack/02 LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/Control Flow & Routing.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Control Flow & Routing"
+              "title": "New tab"
             }
           }
         ]
@@ -214,8 +210,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0729291cb30c5df",
+  "active": "07533c10fb465488",
   "lastOpenFiles": [
+    "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/What is an LLM Agent.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1.1 What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1 LLM Basics & Tokenization.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM/1.1.1 LLM Basics & Tokenization",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1.1.1 What Is an LLM",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/Untitled 1",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/Untitled",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1.1 LLM Basics & Tokenization",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
+    "1.2 Advanced Prompting Techniques.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1.1.1 What Is an LLM.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.8 Research Frontiers.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.7 Multimodal Prompting.md",
+    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.6 RLHF Implications.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.5 Instruction Tuning.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.4 Soft Prompting.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.13 Emerging Techniques & Research/1.13.3 Meta-Prompting.md",
@@ -229,29 +245,9 @@
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.3 API Integration.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.2 Prompt Management Systems.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.12 Production Prompt Engineering/1.12.1 Prompt Versioning.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.8 Vision-Language Models.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.7 Function Calling.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.6 Multi-Model Strategies.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.5 Model Selection.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.4 Open-Source Models.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.3 Claude Optimization.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.2 GPT-3.5 Optimization.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.11 Model-Specific Optimization/1.11.1 GPT-4 Optimization.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Untitled 2.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/introduction....md",
-    "Untitled 3.md",
     "LLM AGENT DEVLOPEMENT/@langStack/upComming",
     "LLM AGENT DEVLOPEMENT",
     "toolSet/Git/APPLIED - GIT",
-    "toolSet/Git",
-    "toolSet",
-    "New folder",
-    "LLM AGENT DEVLOPEMENT/@langStack/01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types",
-    "LLM AGENT DEVLOPEMENT/@langStack/01 PYTHON/1.2 Python Core Language Fundamentals",
-    "LLM AGENT DEVLOPEMENT/@langStack/01 PYTHON",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.9 Domain-Specific Prompting",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (2).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/Slide-16_9---26--1- (1).png",
     "LLM AGENT DEVLOPEMENT/@CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",
