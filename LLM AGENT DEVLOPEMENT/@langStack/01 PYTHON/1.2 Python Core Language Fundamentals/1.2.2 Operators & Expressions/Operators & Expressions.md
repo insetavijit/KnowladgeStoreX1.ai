@@ -1,0 +1,10 @@
+| **Subtopic**                    | **Focus & Purpose**                             | **Key Concepts / Details**                                    | **One-Line Recall**                                          |
+| ------------------------------- | ----------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------ |
+| **[[Operators & Expressions]]** | Perform operations and evaluate logic in Python | operators act on operands to form expressions                 | Expressions combine values and operators to produce results. |
+| **[[Arithmetic Operators]]**    | Perform mathematical calculations               | `+`, `-`, `*`, `/`, `//`, `%`, `**`                           | Arithmetic operators compute numeric results.                |
+| **[[Comparison Operators]]**    | Compare values and produce boolean results      | `==`, `!=`, `<`, `>`, `<=`, `>=`                              | Comparisons evaluate to `True` or `False`.                   |
+| **[[Logical Operators]]**       | Combine or negate boolean expressions           | `and`, `or`, `not`, short-circuit evaluation                  | Logical operators control boolean flow.                      |
+| **[[Bitwise Operators]]**       | Manipulate integers at the bit level            | `&`, `                                                        | `,` ^`,` ~`,` <<`,` >>`                                      |
+| **[[Operator Precedence]]**     | Determine evaluation order in expressions       | precedence rules, parentheses override                        | Precedence defines how expressions are evaluated.            |
+| **[[Walrus Operator]]**         | Assign values within expressions                | assignment expression, avoids recomputation                   | Walrus operator assigns and returns a value in one step.     |
+| **[[Expression Evaluation]]**   | Understand how Python executes expressions      | left-to-right evaluation, short-circuiting, temporary objects | Python evaluates expressions deterministically at runtime.   |
