@@ -4,24 +4,104 @@
     "type": "split",
     "children": [
       {
-        "id": "c80eff0b6a07b8d0",
-        "type": "tabs",
+        "id": "7a0a38d86274437c",
+        "type": "split",
         "children": [
           {
-            "id": "d3d17da009324275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LangGraph.md",
-                "mode": "source",
-                "source": false
+            "id": "c80eff0b6a07b8d0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d556138edce03119",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Langfuse.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Langfuse"
+                }
+              }
+            ]
+          },
+          {
+            "id": "3f1089ec3c91b8e1",
+            "type": "split",
+            "children": [
+              {
+                "id": "c4d746ce5c7b2793",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "d3d17da009324275",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "LangGraph/LangGraph.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "LangGraph"
+                    }
+                  },
+                  {
+                    "id": "c603d37001e44aa3",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "introduction....md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "introduction..."
+                    }
+                  },
+                  {
+                    "id": "be37f81baa25a38b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {},
+                      "icon": "lucide-git-fork",
+                      "title": "Graph view"
+                    }
+                  }
+                ],
+                "currentTab": 2
               },
-              "icon": "lucide-file",
-              "title": "LangGraph"
-            }
+              {
+                "id": "a353dd6a461f0ed9",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "2e93cddb4cd9a27b",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "LangChain.md",
+                        "mode": "source",
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "LangChain"
+                    }
+                  }
+                ],
+                "stacked": true
+              }
+            ],
+            "direction": "horizontal"
           }
-        ]
+        ],
+        "direction": "vertical"
       }
     ],
     "direction": "vertical"
@@ -128,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "5b1aa8dcb300b652",
@@ -175,16 +256,6 @@
         "dimension": 25.428571428571427,
         "children": [
           {
-            "id": "be37f81baa25a38b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "b3ea8d591869e90f",
             "type": "leaf",
             "state": {
@@ -194,8 +265,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,16 +283,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d3d17da009324275",
+  "active": "be37f81baa25a38b",
   "lastOpenFiles": [
+    "introduction....md",
+    "Langfuse.md",
+    "LangChain.md",
+    "Untitled.md",
+    "LangGraph/LangGraph.md",
     "lorem.md",
     "topics.md",
-    "1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1 LangGraph Setup & Architecture.md",
-    "LangGraph.md",
-    "1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview.md",
-    "1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/What is LangGraph.md",
-    "1.1 LangGraph Fundamentals/1.1.2 State & StateGraph/1.1.2.1 State & StateGraph Overview.md",
-    "1.1 LangGraph Fundamentals/1.1.2 State & StateGraph/1.1.2 State & StateGraph.md",
+    "LangGraph",
+    "Untitled",
+    "Langfuse",
+    "LangChain",
+    "NLP",
+    "Python",
+    "FastAPI",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1 LangGraph Setup & Architecture.md",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview.md",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.1 LangGraph Overview/What is LangGraph.md",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.2 State & StateGraph/1.1.2.1 State & StateGraph Overview.md",
+    "LangGraph/1.1 LangGraph Fundamentals/1.1.2 State & StateGraph/1.1.2 State & StateGraph.md",
     "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.5 Performance, Security & Best Practices/1.3.5.12 Documentation & Maintainability.md",
     "WordpressSyllabus/WordPress Multisite Networks.md",
     "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.5 Performance, Security & Best Practices/1.3.5.11 Testing & Debugging Best Practices.md",
@@ -238,19 +319,8 @@
     "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.4 Advanced Template Features/1.3.4 Advanced Template Features.md",
     "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.4 Advanced Template Features/1.3.4.11 Backward Compatibility.md",
     "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.4 Advanced Template Features/1.3.4.1 Custom Fields Overview.md",
-    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.4 Advanced Template Features/1.3.4.12 Best Practices & UX.md",
-    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.4 Advanced Template Features/1.3.4.3 Meta Handling & Security.md",
-    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3 Classic Theme Development & PHP.md",
-    "WordpressSyllabus/1.3 Classic Theme Development & PHP/1.3.3 Custom Post Types & Taxonomies/1.3.3.3 CPT Arguments Deep Dive.md",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.12 Best Practices & Pitfalls",
     "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.11 When to Use LangGraph",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.10 LangGraph vs LangChain Chains",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.9 Execution & Control Flow",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.8 State Management",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.7 Edges & Routing Logic",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.6 Nodes & Functions",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.5 Core Concepts Graphs",
-    "LangGraph/1.1 LangGraph Fundamentals/1.1.1 LangGraph Setup & Architecture/1.1.1.4 Project Structure",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (2).png",
     "AGENTIC AI CORE/imgs/Slide-16_9---26--1- (1).png",
     "AGENTIC AI CORE/imgs/66aa02651c656df9e8e5b5af_664c850e2b64b4ff95ca9b9e_single-multi-path-reasoning-llm-agent.webp",
