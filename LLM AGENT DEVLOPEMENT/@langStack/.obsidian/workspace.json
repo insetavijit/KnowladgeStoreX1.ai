@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1 Variables & Data Types.md",
+                "file": "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/Immutability Implication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2.1 Variables & Data Types"
+              "title": "Immutability Implication"
             }
           }
         ]
@@ -204,8 +204,8 @@
   },
   "active": "2a2a32b0049a3194",
   "lastOpenFiles": [
-    "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1.5 Type Inference.md",
     "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1 Variables & Data Types.md",
+    "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1.5 Type Inference.md",
     "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1.10 Type Checking & Inspection.md",
     "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1.9 Constants.md",
     "01 PYTHON/1.2 Python Core Language Fundamentals/1.2.1 Variables & Data Types/1.2.1.8 NoneType.md",
