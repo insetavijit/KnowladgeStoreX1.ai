@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7c4b66ed2d2b98d3",
+        "id": "dff71cf1f4c07726",
         "type": "tabs",
         "children": [
           {
-            "id": "07533c10fb465488",
+            "id": "adad53b9daf3c58e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.8 Debugging & Callbacks/2.1.8 Debugging & Callbacks.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2.1.8 Debugging & Callbacks"
+              "title": "New tab"
             }
           }
         ]
@@ -214,8 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0729291cb30c5df",
+  "active": "b3ea8d591869e90f",
   "lastOpenFiles": [
+    "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.8 Debugging & Callbacks/2.1.8 Debugging & Callbacks.md",
+    "Untitled",
     "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.8 Debugging & Callbacks",
     "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.7 Memory Basics/2.1.7 Memory Basics.md",
     "LLM AGENT DEVLOPEMENT/@langStack/02 LangChain/2.1 LangChain Fundamentals/2.1.7 Memory Basics",
@@ -240,9 +238,7 @@
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/What Is an LLM.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization/1.1.1 LLM Basics & Tokenization.md",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1 LLM Basics & Tokenization",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM/1.1.1 LLM Basics & Tokenization",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/What Is an LLM.md",
-    "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM",
     "LLM AGENT DEVLOPEMENT/@langStack/Prompt Engineering/1.1 Prompt Engineering Fundamentals/1.1.1.1 What Is an LLM.md",
     "LLM AGENT DEVLOPEMENT/@CORE/1.1 LLM Agent Foundations/1.1.1 What are LLM Agents/1.1.1.1 LLM Agents Overview/1.1.1.1 LLM Agents Overview.md",
     "1.2 Advanced Prompting Techniques.md",
