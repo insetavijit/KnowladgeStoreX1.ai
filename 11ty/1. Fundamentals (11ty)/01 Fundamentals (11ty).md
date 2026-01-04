@@ -1,0 +1,10 @@
+| Topic                            | Focus & Purpose                                                                                                                                                             |
+| -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[[1.1 Installation & Setup]]** | Installing 11ty (npm install @11ty/eleventy); Node.js requirements; project initialization; directory structure; first site; zero-config start. Getting started.            |
+| **[[1.2 Template Languages]]**   | Supported languages (HTML, Markdown, Nunjucks, Liquid, Handlebars, JavaScript, Pug, EJS, Haml, Mustache, WebC); choosing templates; mixing languages. Language flexibility. |
+| **[[1.3 Project Structure]]**    | Input/output directories; folder organization; includes; layouts; data folders; static files; best practices. Organizing projects.                                          |
+| **[[1.4 Configuration File]]**   | eleventy.config.js; configuration options; zero-config vs custom; ESM vs CommonJS; async configuration; returns object. Project configuration.                              |
+| **[[1.5 Command Line Usage]]**   | Build command; serve command; watch mode; incremental builds; dry run; quiet mode; CLI options. Running 11ty.                                                               |
+| **[[1.6 Front Matter]]**         | YAML front matter; data in templates; custom data; computed data; front matter formats; data priority. Template metadata.                                                   |
+| **[[1.7 Permalinks]]**           | Permalink structure; custom URLs; permalink variables; date-based permalinks; pagination permalinks; dynamic permalinks. URL control.                                       |
+| **[[1.8 Why 11ty?]]**            | Speed comparison; simplicity; flexibility; no client JS; incremental adoption; framework agnostic; long-term thinking. Value proposition.                                   |
