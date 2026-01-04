@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 Content Management/4.1 Blog Setup/4.1 Blog Setup.md",
+                "file": "4 Content Management/4.1 Blog Setup/4.1.1 Post Collection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.1 Blog Setup"
+              "title": "4.1.1 Post Collection"
             }
           }
         ],
@@ -232,8 +232,9 @@
   "active": "6070484a3f87f2e7",
   "lastOpenFiles": [
     "4 Content Management/4.2 Tags & Taxonomies/4.2 Tags & Taxonomies.md",
-    "4 Content Management/4.3 Content Dates/4.3 Content Dates.md",
+    "4 Content Management/4.1 Blog Setup/4.1.1 Post Collection.md",
     "4 Content Management/4.1 Blog Setup/4.1 Blog Setup.md",
+    "4 Content Management/4.3 Content Dates/4.3 Content Dates.md",
     "2 Layouts & Templates/2.1 Layout Basics/2.1.5 Front Matter Layout Assignment.md",
     "2 Layouts & Templates/2.1 Layout Basics/2.1.4 Layout Chaining.md",
     "2 Layouts & Templates/2.1 Layout Basics/2.1.3 Directory Specific Layouts.md",
@@ -257,7 +258,6 @@
     "3 Collections & Data/3.8 Pagination/3.8.2 Accessing Paginated Data.md",
     "3 Collections & Data/3.8 Pagination/3.8.1 Basic Pagination.md",
     "3 Collections & Data/3.7 Computed Data/3.7.5 Limitations.md",
-    "3 Collections & Data/3.7 Computed Data/3.7.4 Computed Permalinks.md",
     "2 Layouts & Templates/2.1 Layout Basics/2.1.4 Layout Chaining (Parent",
     "12. Real-World Projects/12.8 JAMstack Application",
     "12. Real-World Projects/12.7 Community Site",
