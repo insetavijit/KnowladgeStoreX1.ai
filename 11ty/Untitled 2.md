@@ -1,4 +1,4 @@
-```
+```mermaid
 graph TB
     subgraph Input["📥 INPUT LAYER"]
         CF["Configuration<br/>.eleventy.js"]
